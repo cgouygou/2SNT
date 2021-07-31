@@ -1,11 +1,6 @@
 site_name: "SNT en Seconde"
 site_url: "https://cgouygou.github.io/2SNT/"
 
-# nav:
-#   - Accueil : 'index.md'
-#   - ...
-
-
 theme:
   name: material
   site_url: ""
