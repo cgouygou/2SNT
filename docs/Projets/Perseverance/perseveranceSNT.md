@@ -9,7 +9,11 @@ Vidéo du déploiement du parachute : [https://youtu.be/N3b-1-yrQYw](https://you
 
 Les zones blanches et rouges se décomposent comme ceci, sur 4 couronnes:
 
-![](parachute.png)
+<p align="center">
+<img src="parachute.png"  width=" 640 "/> 
+</p>
+
+![](parachute.png){width=640}
 
 Ces internautes ont rapidement pensé que l'alternance du blanc et du rouge, sur des secteurs bien définis, pouvaient s'interpréter comme un code binaire...
 
