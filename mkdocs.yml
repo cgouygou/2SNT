@@ -1,8 +1,9 @@
 site_name: "SNT en Seconde"
+site_url: "https://cgouygou.github.io/2SNT/"
 
-nav:
-  - 'accueil' : 'index.md'
-  - ...
+# nav:
+#   - Accueil : 'index.md'
+#   - ...
 
 
 theme:
@@ -77,6 +78,7 @@ markdown_extensions:
 plugins:
   - search
   - macros
+  - awesome-pages
 
 extra:
   social:
