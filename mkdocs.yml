@@ -1,8 +1,8 @@
-site_name: "petits tests préparatoires"
+site_name: "SNT en Seconde"
 
 nav:
   - 'accueil' : 'index.md'
-  - 'cryptographie' : 'crypto.md'
+  - ...
 
 
 theme:
@@ -11,6 +11,9 @@ theme:
   custom_dir: my_theme_customizations/
   font: false
   language: fr
+  icon:
+    logo: fontawesome/solid/laptop-code
+    repo : fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tabs
@@ -78,8 +81,16 @@ plugins:
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:mon_prénom.mon_nom@chez.moi
+      link: mailto:cedric.gouygou@ac-poitiers.fr
       name: Écrire à l'auteur
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/cgouygou/2SNT
+      name: Dépôt git
+
+    - icon: fontawesome/solid/university
+      link: https://lyceevalois.com
+      name: Lycée Marguerite de Valois - Angoulême (16)
 
 extra_javascript:
   - xtra/javascripts/interpreter.js
@@ -90,3 +101,8 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - xtra/stylesheets/pyoditeur.css
+
+copyright:  CC BY-SA / C. Gouygou
+
+repo_url: https://github.com/cgouygou/2SNT
+repo_name: cgouygou/2SNT

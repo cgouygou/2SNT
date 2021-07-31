@@ -1,6 +1,9 @@
 # SNT en Seconde
 
-Cours et ressources SNT
+Cours de SNT en Seconde - C. Gouygou
 
 Lycée Marguerite de Valois - Angoulême
-Cédric Gouygou
+
+L'ensemble des documents disponibles est publié sous licence CC-BY-SA.
+
+![](ccbysa.png)
