@@ -9,7 +9,10 @@ Vidéo du déploiement du parachute : [https://youtu.be/N3b-1-yrQYw](https://you
 
 Les zones blanches et rouges se décomposent comme ceci, sur 4 couronnes:
 
-![](parachute.png){: .center}{width=640}
+<p align="center">
+<img src="../parachute.png"  width=" 640 "/> 
+</p>
+
 
 Ces internautes ont rapidement pensé que l'alternance du blanc et du rouge, sur des secteurs bien définis, pouvaient s'interpréter comme un code binaire...
 
@@ -17,7 +20,11 @@ Après quelques essais infructueux, ils ont remarqué que les 80 élements de ch
 
 En voici les deux premiers groupes mis en relief:
 
-![](parachute_zoom.png)
+<p align="center">
+<img src="../parachute_zoom.png"  width=" 640 "/> 
+<br>
+Détail des deux premiers groupes
+</p>
 
 Sur le premier groupe, en supposant que blanc vaut 0 et rouge vaut 1, on obtient le nombre binaire 000 0100 qui vaut 4 en décimal. Et **D** est la quatrième lettre de l'alphabet.
 
@@ -28,8 +35,7 @@ Sur le premier groupe, en supposant que blanc vaut 0 et rouge vaut 1, on obtient
     === "Solution"
         Vous devez trouver les lettres A, R et E.
         
-
-??? Example "À vous de jouer"
+!!! Example "À vous de jouer"
 	=== "Énoncé"
         Faire de même sur les trois couronnes suivantes.
 	
