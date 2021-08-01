@@ -1,4 +1,6 @@
-# Jouons à la marchande
+# Système binaire
+
+## Jouons à la marchande
 
 !!! Info "Principe du «jeu»"
     - Par groupe de 3, désigner un.e marchand.e et deux acheteur.euse.s.
@@ -17,7 +19,7 @@ Par exemple, voici comme on pourrait payer 100 £eibits:
     3. Essayer de trouver un montant impossible à payer.
 
 
-# Bilan
+## Bilan
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRdp_vaNRoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
