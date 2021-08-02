@@ -1,8 +1,9 @@
 # Sommaire des activités
 
-- Binaire 
+- [Binaire](../01-Binaire/Binaire/)
 - Formats ouverts
 - Big Data
+- Image numérique
 - Sigles de l'Internet
 - Prise en main du HTML/CSS
 - Graphes

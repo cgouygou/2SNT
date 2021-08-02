@@ -14,3 +14,7 @@
     display: block;
     margin: 0 auto;
 }
+
+.w640 {
+    width: 640px;
+}
