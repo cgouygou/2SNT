@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cgouygou.github.io/2SNT/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cgouygou.github.io/2SNT/Activites/Binaire/Binaire/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <loc>https://cgouygou.github.io/2SNT/Activites/sommaire/</loc>
+         <lastmod>2021-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cgouygou.github.io/2SNT/Activites/01-Binaire/Binaire/</loc>
+         <lastmod>2021-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cgouygou.github.io/2SNT/Projets/Perseverance/Liens/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cgouygou.github.io/2SNT/Projets/Perseverance/perseveranceSNT/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
