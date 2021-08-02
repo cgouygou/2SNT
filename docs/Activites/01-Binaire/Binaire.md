@@ -1,6 +1,6 @@
 # Système binaire
 
-## Jouons à la marchande
+## 1- Jouons à la marchande
 
 !!! Info "Principe du «jeu»"
     - Par groupe de 3, désigner un.e marchand.e et deux acheteur.euse.s.
@@ -19,9 +19,42 @@ Par exemple, voici comme on pourrait payer 100 £eibits:
     3. Essayer de trouver un montant impossible à payer.
 
 
-## Bilan
+## 2- Bilan
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRdp_vaNRoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+
+## 3- Conversions avec Python
+
+### Du décimal vers le binaire
+
+Pour obtenir l’écriture binaire d’un nombre entier écrit en décimal, par exemple 2021, il suffit de taper dans un terminal:
+
+```python
+bin(2021)
+```
+
+Faites-le ci-dessous:
+
+{{ terminal() }}
+
+??? note "Remarque"
+    Attention, ce qui est renvoyé par cette fonction est une chaîne de caractères (entre simples guillemets). L’écriture en binaire de 2021 est donc 11111100101. Le `0b` indique que c’est... du binaire.
+
+### Du binaire vers le décimal
+
+C'est encore plus simple. Il suffit de taper dans un terminal le nombre binaire précédé de `0b`. Vérifiez que 101010 en binaire correspond à 42 (le sens de la vie).
+
+{{ terminal() }}
+
+
+!!! question "Question"
+    === "Énoncé"
+        1. Choisir 3 nombres. Les convertir en binaire.
+        2. Calculer les doubles de ces 3 nombres et les convertir en binaire.
+        3. Comment multiplie-t-on les nombres par 2 en binaire?
+
+    === "Solution"
+        Il suffit de décaler l'écriture binaire vers la gauche en ajoutant un `0` à droite.
 
