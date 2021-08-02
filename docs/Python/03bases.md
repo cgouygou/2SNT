@@ -1,11 +1,11 @@
 # Les bases de Python
 
-## les variables
+## 01 - Les variables
 
-## les boucles
+## 02 - Les boucles
 
-## les tests
+## 03 - les tests
 
-## les fonctions
+## 04 - les fonctions
 
 
