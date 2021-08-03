@@ -43,12 +43,15 @@ questionnaire
         Par exemple, la résolution standard pour affichage sur le web est de 72 ppp (pixels par pouce) alors qu'une résolution de 300 ppp est recommandée pour l'impression.
 
 
-??? info "Le codage des pixels"
+??? info "Le codage des pixels (couleurs)"
     Chaque pixel correspond à un triplet de trois nombres entiers, soit les valeurs de rouge (Red), de vert (Green) et de bleu (Blue) afin de reconstituer la couleur. Chaque valeur est codée entre 0 et 255 (ou en pourcentages, ou en , voir [ici](https://fr.wikipedia.org/wiki/Rouge_vert_bleu#Codes_pratiques){:target="_blank"}  hexadécimal). On parle de code RGB (RVB in french).
 
     ![](chromato.jpg){: .center} 
 
     À noter qu'une couleur dont les 3 composantes sont identiques correspond à un niveau de gris.
+
+!!! tip "Site incontournable"
+    Un site pour visualiser les couleurs au formet RGB, et convertir en héxadécimal : [http://www.proftnj.com/RGB3.htm](http://www.proftnj.com/RGB3.htm){:target="_blank"}  
 
 ??? info "La capture de l'image"
     On appelle «image numérique» toute image acquise et stockée sous forme binaire: elle peut se définir comme une suite de 0 et de 1. Le format  d’une  image  numérique  est  la  manière  dont  est  codée  cette suite de 0 et de 1 (bits). Lors de la capture par l’appareil photo, un fichier au format RAW est produit, mais est inexploitable pour visualiser l'image: il s’agit des données brutes issues du capteur. En général, les données sont immédiatement modifiées et enregistrées dans un autre format.
