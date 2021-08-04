@@ -38,7 +38,7 @@ P1
 
 
 !!! example "Exercice"
-    On veut désormais construire une image PBM de l'image ci-dessous, de taille 10$\times$10. Pour cela, à partir du dessin, noircissez toutes les cases qui contiennent majoritairement du noir (enfin, à vous de juger) pour obtenir un dessin pixellisé de la figure initiale. Puis créer un fichier `smiley.pbm`.
+    On veut désormais construire une image PBM de l'image ci-dessous, de taille 10x10. Pour cela, à partir du dessin, noircissez toutes les cases qui contiennent majoritairement du noir (enfin, à vous de juger) pour obtenir un dessin pixellisé de la figure initiale. Puis créer un fichier `smiley.pbm`.
 
     ![](smiley_grille.PNG){: .center .w640} 
 

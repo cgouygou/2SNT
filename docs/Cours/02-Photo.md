@@ -1,15 +1,15 @@
-# Photo et image numérique
+# Thème 02 : Photo et image numérique
 
 La photographie numérique a révolutionné le domaine de la photographie par la généralisation de capteurs intégrés en particulier aux smartphones actuels. Le développement d’algorithmes de  traitement  d’images  a  permis  des  progrès  beaucoup  plus  rapides  qu’avec  l’optique traditionnelle. Le coût presque nul d’une prise de vue et la facilité de partage font que plusieurs milliards de photographies numériques sont prises chaque jour, puis sont postées sur les réseaux sociaux.
 
-![](frise_photo.png){: .center} 
+![](images/frise_photo.png){: .center} 
 
 
 ## 1- Fonctionnement d'un appareil photo
 
 Visionnez les deux vidéos suivantes.
 
-[![](video2.png){: .center .w640} ](https://www.01net.com/mediaplayer/video/le-capteur-photo-numerique-qu-est-ce-que-c-est-01focus-888661.html){:target="_blank"}
+[![](images/video2.png){: .center .w640} ](https://www.01net.com/mediaplayer/video/le-capteur-photo-numerique-qu-est-ce-que-c-est-01focus-888661.html){:target="_blank"}
 
 <p align="center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/UnNPNc-F9ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ questionnaire
     === "Quadrillage"
         Une image numérique se présente sous la forme d’un quadrillage - ou d'un tableau - dont chaque case est un pixel d’une couleur donnée. On peut donc repérer chaque pixel par sa ligne et sa colonne dans ce quadrillage, à l'aide de coordonnées en partant du coin en haut à gauche.
         
-        ![](tabpixels.png){: .center .w640} 
+        ![](images/tabpixels.png){: .center .w640} 
         
     === "Définition"
         La définition de l’image est le nombre total de pixels qui la composent. Celle-ci n’est pas forcément égale à la définition du capteur.
@@ -46,7 +46,7 @@ questionnaire
 ??? info "Le codage des pixels (couleurs)"
     Chaque pixel correspond à un triplet de trois nombres entiers, soit les valeurs de rouge (Red), de vert (Green) et de bleu (Blue) afin de reconstituer la couleur. Chaque valeur est codée entre 0 et 255 (ou en pourcentages, ou en , voir [ici](https://fr.wikipedia.org/wiki/Rouge_vert_bleu#Codes_pratiques){:target="_blank"}  hexadécimal). On parle de code RGB (RVB in french).
 
-    ![](chromato.jpg){: .center} 
+    ![](images/chromato.jpg){: .center} 
 
     À noter qu'une couleur dont les 3 composantes sont identiques correspond à un niveau de gris.
 
@@ -128,7 +128,7 @@ questionnaire
 
 ## 4- Logiciels utiles 
 
-![](The_GIMP_icon.svg){width=125px align=left}
+![](images/The_GIMP_icon.svg){width=125px align=left}
 
 **GIMP** (pour GNU Image Manipulation Program) est le logiciel libre le plus complet et le plus utilisé pour à la fois dessiner des images et traiter des photographie numériques. 
 
@@ -137,7 +137,7 @@ Site officiel : [https://www.gimp.org](https://www.gimp.org){:target="_blank"} e
 <br>
 
 
-![](Inkscape_Logo.svg){width=125px align=left}
+![](images/Inkscape_Logo.svg){width=125px align=left}
 
 **Inkscape** est  un  logiciel  libre  de  dessin  vectoriel  sous  licence  GNU  GPL.  Il  gère  des  fichiers conformes avec les standards XML, SVG et CSS du W3C.Le logiciel est intégré à la liste des logiciels libres préconisés par l’État français dans le cadre de la modernisation globale de ses systèmes d’informations.
 

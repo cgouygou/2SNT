@@ -3,7 +3,7 @@
 - [Binaire](../01-Binaire/Binaire/)
 - Formats ouverts
 - Big Data
-- Image numérique
+- [Image numérique](../04-Image_numerique/01-noirblanc/)
 - Sigles de l'Internet
 - Prise en main du HTML/CSS
 - Graphes

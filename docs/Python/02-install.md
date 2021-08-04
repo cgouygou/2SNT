@@ -46,3 +46,12 @@ Sur son PC personnel (ou familial), je vous conseille plutôt d'installer Thonny
 <em>Éditeur en haut, console en bas</em>
 </p>
 
+## Ici, sur ce site
+
+Dans certaines activités, vous trouverez une console intégrée. Vous pouvez y entrer des instructions simples:
+
+{{ terminal() }}
+
+Ou bien un mini-IDE intégré:
+
+{{ IDEv() }}
