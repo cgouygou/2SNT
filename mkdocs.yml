@@ -10,6 +10,7 @@ theme:
   icon:
     logo: fontawesome/solid/laptop-code
     repo : fontawesome/brands/github
+  favicon: fontawesome/solid/laptop-code
   
   features:
     - navigation.instant
@@ -26,7 +27,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb-outline
         name: Mode sombre
 
     # Dark mode
@@ -35,7 +36,7 @@ theme:
       primary: blue
       accent: blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb
         name: Mode clair
 
 
@@ -74,7 +75,8 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - awesome-pages
+  - awesome-pages:
+      collapse_single_pages: true
 
 extra:
   social:

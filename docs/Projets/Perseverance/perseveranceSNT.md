@@ -1,6 +1,7 @@
 # Le parachute de Perseverance
 
-Lors de sa descente vers la planète Mars le 18/02/2021 (voir la page **Liens**), le rover Perseverance de la Nasa a freiné sa chute grâce à un parachute qui a intrigué quelques internautes du forum Reddit.
+## Activité
+Lors de sa descente vers la planète Mars le 18/02/2021 (voir la section [**Liens**](#liens)), le rover Perseverance de la Nasa a freiné sa chute grâce à un parachute qui a intrigué quelques internautes du forum Reddit.
 
 ![](real.png){: .center}
 
@@ -42,5 +43,19 @@ Sur le premier groupe, en supposant que blanc vaut 0 et rouge vaut 1, on obtient
 	    La dernière est différente des trois autres, saurez-vous l'interpréter correctement?
 	
 	
+
+##Liens
+
+**Vidéo déploiement du parachute:**
+
+[https://youtu.be/N3b-1-yrQYw](https://youtu.be/N3b-1-yrQYw)
+
+
+
+**Générateur de parachute:**
+
+[https://sjwarner.github.io/perseverance-parachute-generator/
+](https://sjwarner.github.io/perseverance-parachute-generator/)
+
 
 
