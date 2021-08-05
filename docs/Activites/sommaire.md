@@ -8,3 +8,4 @@
 - Prise en main du HTML/CSS
 - Graphes
 - Réseaux sociaux et droit à l'oubli
+- [Coordonnées GPS sur le Web](../09-GPS/09-CoordonneesGPS/)

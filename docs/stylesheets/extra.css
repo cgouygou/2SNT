@@ -18,3 +18,16 @@
 .w640 {
     width: 640px;
 }
+img:active[src*="#zoom"] {
+    cursor: zoom-out;
+    transform: scale(2.0);
+}
+
+img[src*="#zoom"] {
+    cursor: zoom-in;
+}
+
+.zoom {
+    cursor: zoom-in;
+    /* transform: scale(2.0); */
+}
