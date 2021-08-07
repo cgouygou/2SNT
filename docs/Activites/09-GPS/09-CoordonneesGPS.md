@@ -34,6 +34,8 @@ Nous essaierons d'utiliser d'autres outils, libres et collaboratifs, comme [Open
 !!! example "Exercice"
     À votre avis, que va-t-il se passer lorsqu'on suit l'url suivante: https://www.openstreetmap.org/#map=19/45.64845/0.15621 ? Vérifiez-le.
 
+    À quoi correspond la valeur 19?
+
 
 ## Conversions
 
