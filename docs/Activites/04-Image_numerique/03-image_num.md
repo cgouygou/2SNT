@@ -62,7 +62,7 @@ for x in range(300):
 
 ## 3- Parcours d'image
 
-Pour modifier **tous** les pixels d'une image, il faut donc parcourir toutes les oronnées y pour toutes les abscisses x. On va donc *imbriquer* deux boucles `for` l'une dans l'autre.
+Pour modifier **tous** les pixels d'une image, il faut donc parcourir toutes les ordonnées y pour toutes les abscisses x. On va donc *imbriquer* deux boucles `for` l'une dans l'autre.
 
 Copier-coller ce code dans un nouveau document:
 
