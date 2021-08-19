@@ -18,6 +18,7 @@
 .w640 {
     width: 640px;
 }
+
 img:active[src*="#zoom"] {
     cursor: zoom-out;
     transform: scale(2.0);
