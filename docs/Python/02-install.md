@@ -1,6 +1,5 @@
 # Travailler avec Python
 
-
 Pour pouvoir utiliser un langage de programmation, on a besoin d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement) (environnement de développement). Il en existe beaucoup...
 
 !!! note "Éditeur et console"
