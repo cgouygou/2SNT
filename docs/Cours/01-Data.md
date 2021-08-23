@@ -1,5 +1,7 @@
 # Thème 01: Données structurées
 
+![](../images/logo_data.png){: .center} 
+
 ## 1- Notion de donnée
 
 Une **donnée** est une valeur attribuée à une entité pour la décrire. Il peut s’agir d’un objet, d’une personne, d’un événement ou par exemple d’un numéro  de  téléphone.
