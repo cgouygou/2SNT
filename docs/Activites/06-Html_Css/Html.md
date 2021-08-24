@@ -1,1 +1,3 @@
-# 
+# Écrire une page Web avec HTML/CSS
+
+Avant de commencer, [un petit web/escape game](http://lyceevalois.com/snt/IntroWeb/index.html){:target="_blank"} ...

@@ -1,5 +1,7 @@
 # Thème 02 : Photo et image numérique
 
+![](../images/logo_photo.png){: .center} 
+
 La photographie numérique a révolutionné le domaine de la photographie par la généralisation de capteurs intégrés en particulier aux smartphones actuels. Le développement d’algorithmes de  traitement  d’images  a  permis  des  progrès  beaucoup  plus  rapides  qu’avec  l’optique traditionnelle. Le coût presque nul d’une prise de vue et la facilité de partage font que plusieurs milliards de photographies numériques sont prises chaque jour, puis sont postées sur les réseaux sociaux.
 
 ![](images/frise_photo.png){: .center} 

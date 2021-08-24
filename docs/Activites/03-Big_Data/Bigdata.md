@@ -1,4 +1,4 @@
-# Big Data
+# Big Data (exposé)
 
 Cette activité consiste à bâtir un exposé sur le thème du **Big Data**.
 
@@ -13,9 +13,9 @@ Cette activité consiste à bâtir un exposé sur le thème du **Big Data**.
 ??? tip "Indications"
     On pourra chercher par exemple:
 
-    - le volume des données créées cer dernières années;
-    - la signification des «trois V«;
-    - la consommation électrique des data centers
+    - le volume des données créées ces dernières années;
+    - la signification des «trois V»;
+    - la consommation électrique des data centers.
 
 !!! abstract "Forme"
     - Votre exposé aura la forme d'un **diaporama** de quelques diapositives. Privilégiez le contenu, pas l'aspect graphique.
@@ -23,3 +23,5 @@ Cette activité consiste à bâtir un exposé sur le thème du **Big Data**.
     - Il ne doit pas contenir trop de texte, vous approfondirez à l'oral.
 
     - Vous pouvez chercher sur le web, ou sur les manuels mis à votre disposition.
+
+    - **Attention, n'exposez que ce que vous avez compris**.

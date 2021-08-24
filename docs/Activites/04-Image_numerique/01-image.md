@@ -1,6 +1,72 @@
-# En couleur avec Python
+# Image numérique
 
-## 1- Création d'une image
+## 1. Une image simple pour commencer
+
+
+Une première approche pour comprendre comment sont créées les images sur les ordinateurs est de s’intéresser aux images en noir et blanc, comme celle ci-dessous.
+
+[![](gimp-logo.bmp){: .center}](gimp-logo.PBM)
+
+Télécharger l'image en cliquant dessus, puis l'ouvrir avec le bloc-notes de Windows.
+
+
+Cette image est au format [pbm](https://fr.wikipedia.org/wiki/Portable_pixmap#PBM). C'est un simple fichier texte qui contient:
+
+- un nombre magique (pour indiquer le format de l'image, ici P1 pour `pbm`);
+- les dimensions de l'image en pixels : largeur et  hauteur;
+- les pixels: blanc (0) ou noir (1)
+
+
+Un autre exemple? Copiez-collez le code ci-dessous et enregistrez-le avec le bloc-notes dans un fichier `mystere.pbm`. Visualisez ensuite l'image en ouvrant le fichier avec le logiciel GIMP.
+
+```
+P1
+18 13
+11111100000110001111110011111001110111101111111110110111101111111110101111011111
+11111101111101111111111001111101111111110101111101111111101101111101111111011101
+11101011110011101111011011001111101111011100111110011111100011000001111111
+```
+
+??? info "Astuce"
+    En règle générale, même si ce n'est pas obligatoire, on code ce fichier en respectant le nombre de pixels par ligne pour que l'image soit plus «visible».
+
+
+<!-- !!! example "À vous de jouer"
+    - Ouvrir le bloc-notes de Windows (dans les accessoires), puis copier le code précédent. Ne pas oublier en première ligne le nombre magique!
+    - Enregistrer le document sous le nom `a.pbm`.
+    - Ouvrir ensuite ce fichier avec le logiciel GIMP.
+
+ -->
+
+
+!!! example "Exercice"
+    On veut désormais construire une image PBM de l'image ci-dessous, de taille 10x10. Pour cela, à partir du dessin, noircissez toutes les cases qui contiennent majoritairement du noir (enfin, à vous de juger) pour obtenir un dessin pixellisé de la figure initiale. Puis créer un fichier `smiley.pbm`.
+
+    ![](smiley_grille.PNG){: .center .w640} 
+
+## 2. Niveaux de gris
+
+Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant aux images en niveau de gris, comme [celle-ci](snt.pgm), à télécharger et ouvrir deux fois: avec le bloc-notes d'une part et avec GIMP d'autre part.
+
+!!! example "Analyse du code"
+    === "Questions"
+        1. Quel est le nombre magique de ce format `pgm`?
+        2. Comment interpréter le nombre 15 en ligne 4?
+        3. Comment code-t-on les différents niveaux de gris?
+        4. Comment augmenter la qualité de l'image?
+    
+    === "Réponses"
+        1. C'est P2.
+        2. C'est l'intensité maximale de gris. 
+        3. Avec tous les nombres entiers entre 0 et 15, soit 16 au total.
+        4. Il suffit d'augmenter les niveaux de gris avec par exemple 255 en ligne 4 et en codant les pixels avec les entiers de 0 à 255.
+
+!!! example "Exercice"
+    Créez une image au format `pgm` contenant votre prénom, chaque lettre devant être dans un niveau de gris différent.
+
+## 3. En couleur avec Python
+
+### 3.1- Création d'une image
 Dans un IDE, copier-coller le code suivant et l'exécuter:
 
 ```python
@@ -34,7 +100,7 @@ img.save("monimage.png")
         On peut faire l'une ou l'autre. Ou les deux. Comme on veut. Mais pas aucune, sinon pas de rendu !
 
 
-## 2- Modification de pixels
+### 3.2- Modification de pixels
 
 La fonction qui permet de modifier un pixel, c'est-à-dire la couleur qu'il contient, est `Image.putpixel`. Pour l'utiliser, il faut une variable image, les coordonnées du pixel qu'on veut modifier, et la nouvelle couleur.
 
@@ -60,7 +126,7 @@ for x in range(300):
     ![](putpixel.png){: .center}
 
 
-## 3- Parcours d'image
+### 3.3- Parcours d'image
 
 Pour modifier **tous** les pixels d'une image, il faut donc parcourir toutes les ordonnées y pour toutes les abscisses x. On va donc *imbriquer* deux boucles `for` l'une dans l'autre.
 
@@ -113,7 +179,7 @@ C'est mieux, non?
 !!! example "Exercice"
     Générer une image où toutes les composantes RGB pixels sont choisies aléatoirement entre 0 et 255.
 
-## 4- Ouvrir et modifier une image existante
+### 3.4- Ouvrir et modifier une image existante
 
 Nous allons jouer avec les pixels de l'image ci-dessous. Téléchargez-la et copiez-collez-enregistrez le code ci-après dans un fichier `ara.py`  **dans le même dossier**.
 
@@ -191,7 +257,7 @@ Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette 
     === "Floutage (pour les experts)"
         Pour flouter une image, il «suffit» de définir un carré autour d'un pixel, de calculer la moyenne des composantes et de remplacer le pixel par ces moyennes.
 
-## 5- Énigme
+### 3.5- Énigme
 
 Cette image est-elle vraiment composée de pixels tous noirs?
 

@@ -1,4 +1,6 @@
-# Thème 06 :Localisation et cartographie
+# Thème 06: Localisation et cartographie
+
+![](../images/logo_carto.png){: .center} 
 
 
 frise histo tribu jbs ?
