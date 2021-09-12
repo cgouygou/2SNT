@@ -14,11 +14,11 @@
 
     2. Créer un nouveau dossier nommé `SNT`.
 
-    3. Ouvrir le logiciel LibreOffice Writer, et notez vos nom et prénoms dans le document vierge. Puis sauvegardez-le sous la forme `SNT_TP0_nom_prenom.odt` dans votre `\perso\prive`. Ne pas fermer le logiciel.
+    3. Ouvrir le logiciel LibreOffice Writer, et notez vos nom et prénoms dans le document vierge. Puis sauvegardez-le sous la forme `SNT_TP0_nom_prenom.odt` dans votre dossier `\perso\prive\SNT`. **Ne pas fermer le logiciel**.
 
-    4. Dans les applications de l'ordinateur, lancer l'outil de capture d'écran (dans Accessoires Windows). Faire une capture de votre dossier contenant le fichier créé (pas tout l'écran, juste le triangle). La copier dans le presse-papiers.
+    4. Dans les applications de l'ordinateur, lancer l'outil de capture d'écran (dans Accessoires Windows). Faire une capture de votre dossier contenant le fichier créé (pas tout l'écran, sélectionnez une zone adéquate) et l'enregistrer.
 
-    5. Insérer cette capture d'écran dans votre document `SNT_TP0_nom_prenom.odt` puis sauvegardez.
+    5. Insérer cette capture d'écran dans votre document `SNT_TP0_nom_prenom.odt` puis sauvegarder.
 
     6. Convertir le document en PDF sous le même nom (avec l'extension `.pdf` plutôt que `.odt` bien entendu). Passez pour cela soit par le menu **Fichier** puis **Exporter vers** et enfin **Exporter en PDF**, soit en cliquant sur l'îcone correspondante.
 
