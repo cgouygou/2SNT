@@ -5,6 +5,16 @@
 
 ## 1- Formats de fichiers
 
+{{ initexo(0) }}
+
+!!! example "{{ exercice() }}"
+    1. Ouvrir le bloc-notes de Windows (le chercher dans les applications) et y taper le texte «Marguerite de Valois». Enregistrer le fichier sous le nom «test.txt» dans votre dossier `SNT`.
+
+    2. Ouvrir LibreOffice Writer et y taper le texte «Marguerite de Valois». Enregistrer le fichier sous le nom «test.odt» dans votre dossier `SNT`.
+
+    3. Ouvrir dans votre dossier `SNT` et noter les tailles en octets de ces deux fichiers. Que constate-t-on? Comment l'expliquer?
+
+
 !!! info "Ouvert ou fermé?"
     On appelle format « ouvert » un format dont les spécifications techniques ne sont pas encombrées d’entraves techniques ou légales à son exploitation dans quel que logiciel que ce soit. Ces spécifications techniques sont la « recette » permettant au programmeur d’écrire des programmes capables d’encoder ou décoder des données dans ce format.
 
