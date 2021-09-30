@@ -22,7 +22,7 @@
 
 !!! example "{{ exercice() }}"
 
-    Reproduire et compléter le tableau ci-dessous avec les types de fichiers:
+    Reproduire et compléter à l'aide de recherches sur le Web le tableau ci-dessous avec les types de fichiers:
 
     ![](type_fichier.jpg){align=right} 
 
