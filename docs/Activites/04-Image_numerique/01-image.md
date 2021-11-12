@@ -76,7 +76,7 @@ couleur_fond = (128, 128, 128)
 img = Image.new("RGB", (300, 200), couleur_fond)
 
 img.show()
-img.save("monimage.png")
+#img.save("monimage.png")
 ```
 
 !!! info "Explication du code"
