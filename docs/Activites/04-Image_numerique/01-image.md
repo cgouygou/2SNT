@@ -67,7 +67,7 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
 ## 3. En couleur avec Python
 
 ### 3.1- Création d'une image
-Dans un IDE, copier-coller le code suivant et l'exécuter:
+Dans [Capytale](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/248d-157252){:target="_blank"}, copier-coller le code suivant et l'exécuter:
 
 ```python
 from PIL import Image
