@@ -177,7 +177,7 @@ C'est mieux, non?
     ```
 
 !!! example "Exercice"
-    Générer une image où toutes les composantes RGB pixels sont choisies aléatoirement entre 0 et 255.
+    Générer une image où toutes les composantes RGB des pixels sont choisies aléatoirement entre 0 et 255.
 
 ### 3.4- Ouvrir et modifier une image existante
 

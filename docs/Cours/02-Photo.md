@@ -24,7 +24,7 @@ Une troisième pour les curieux:
 </p>
 
 
-questionnaire
+<!-- questionnaire -->
 
 ## 2- L'image numérique
 
