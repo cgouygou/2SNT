@@ -56,10 +56,10 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
         4. Comment augmenter la qualité de l'image?
     
     === "Réponses"
-        1. C'est P2.
+        <!-- 1. C'est P2.
         2. C'est l'intensité maximale de gris. 
         3. Avec tous les nombres entiers entre 0 et 15, soit 16 au total.
-        4. Il suffit d'augmenter les niveaux de gris avec par exemple 255 en ligne 4 et en codant les pixels avec les entiers de 0 à 255.
+        4. Il suffit d'augmenter les niveaux de gris avec par exemple 255 en ligne 4 et en codant les pixels avec les entiers de 0 à 255. -->
 
 !!! example "Exercice"
     Créez une image au format `pgm` contenant votre prénom, chaque lettre devant être dans un niveau de gris différent.
@@ -67,7 +67,7 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
 ## 3. En couleur avec Python
 
 ### 3.1- Création d'une image
-Dans un IDE, copier-coller le code suivant et l'exécuter:
+Dans [Capytale](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/248d-157252){:target="_blank"}, copier-coller le code suivant et l'exécuter:
 
 ```python
 from PIL import Image
@@ -76,7 +76,7 @@ couleur_fond = (128, 128, 128)
 img = Image.new("RGB", (300, 200), couleur_fond)
 
 img.show()
-img.save("monimage.png")
+#img.save("monimage.png")
 ```
 
 !!! info "Explication du code"
