@@ -67,7 +67,7 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
 ## 3. En couleur avec Python
 
 ### 3.1- Création d'une image
-Dans [Capytale](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/248d-157252){:target="_blank"}, copier-coller le code suivant et l'exécuter:
+Dans EduPython, copier-coller le code suivant et l'exécuter:
 
 ```python
 from PIL import Image
@@ -76,7 +76,7 @@ couleur_fond = (128, 128, 128)
 img = Image.new("RGB", (300, 200), couleur_fond)
 
 img.show()
-#img.save("monimage.png")
+img.save("monimage.png")
 ```
 
 !!! info "Explication du code"
@@ -181,9 +181,13 @@ C'est mieux, non?
 
 ### 3.4- Ouvrir et modifier une image existante
 
-Nous allons jouer avec les pixels de l'image ci-dessous. Téléchargez-la et copiez-collez-enregistrez le code ci-après dans un fichier `ara.py`  **dans le même dossier**.
+Nous allons jouer avec les pixels de l'image ci-dessous.
 
-![](ara.jpg){: .w640 .center}
+- Téléchargez l'image (clic-droit puis Enregistrer l'image sous) dans votre dossier personnel.
+- Copiez-collez le code ci-après dans un nouveau document EduPython
+- Enregistrez ce fichier sous le nom `ara.py`  **dans le même dossier**.
+
+![](ara.jpg){: width=50% .center}
 
 ```python
 from PIL import Image
@@ -245,7 +249,7 @@ Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette 
     === "Négatif"
         Pour obtenir le négatif d'une image, il faut remplacer chaque composante RGB par son complémentaire à 255.
         
-        Par exemple, si une composante vaut 42, il faut la remplacer par (255 - 42 =)  213.
+        Par exemple, si une composante vaut 42, il faut la remplacer par 213  (car 255 - 42 = 213).
 
     === "Niveaux de gris"
         Dans sa norme 709, la Commission Internationale de l’Éclairage propose de remplacer les 3 composantes d'un pixel (r, g, b) par la valeur suivante :

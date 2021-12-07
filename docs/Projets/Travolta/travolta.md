@@ -1,7 +1,7 @@
 # Confused Travolta
 
 ## Fond vert
-L'acteur John Travolta, où plutôt Vincent Vega, a fait l'objet d'un [meme](https://knowyourmeme.com/memes/confused-travolta) sur le web.
+L'acteur John Travolta, où plutôt Vincent Vega, a fait l'objet d'un [meme](https://knowyourmeme.com/memes/confused-travolta){:target="_blank"} sur le web.
 
 Le principe est d'incruster son image, sur fond vert, sur une image déjà existante.
 
@@ -17,7 +17,7 @@ Voici une image de même taille, l'objectif est bien évidemment d'y intégrer J
 
     - parcourir tous les pixels d'une image (avec une double boucle);
     - récupérer la valeur d'un pixel (avec `getpixel()` );
-    - faire des tests avec if... ;
+    - faire des tests avec `if`... ;
     - modifier la valeur d'un pixel (avec `putpixel()` ).
     
 ## Et Pikachu ?

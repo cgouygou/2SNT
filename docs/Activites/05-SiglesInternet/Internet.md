@@ -24,4 +24,6 @@ Cette activité consiste à bâtir un exposé sur le thème d'**Internet et de s
 
     - Vous pouvez chercher sur le web, ou sur les manuels mis à votre disposition.
 
+    - N'hésitez pas à regarder les vidéos de la partir *Cours* de ce site.
+
     - **Attention, n'exposez que ce que vous avez compris**.
