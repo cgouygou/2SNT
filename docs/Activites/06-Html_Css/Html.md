@@ -30,7 +30,7 @@ On retiendra que HTML est un langage dit « à balises ». Ce n'est pas à propr
     [https://developer.mozilla.org/fr/docs/Apprendre/HTML/Introduction_%C3%A0_HTML/Getting_started](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Introduction_%C3%A0_HTML/Getting_started){:target="_blank"} 
 
 !!! note "Exemple complet minimal"
-    Ouvrir l'éditeur de texte `gedit` et y coller le code suivant. Enregistrer le document sous le nom `exemple_minimal.html` par exemple, dans un dossier `HTML`. Puis l'ouvrir avec un navigateur (Firefox).
+    Ouvrir l'éditeur de texte `Notepad++` (dans `commun/logiciels/`) et y coller le code suivant. Enregistrer le document sous le nom `exemple_minimal.html` par exemple, dans un dossier `HTML` de votre dossier `SNT`. Puis l'ouvrir avec un navigateur (Firefox).
 
     === "`<head>`"
         ```html hl_lines="3-6" 
@@ -74,7 +74,7 @@ On retiendra que HTML est un langage dit « à balises ». Ce n'est pas à propr
         </html>
         ```
 
-        1. La balise `<body>` regroupe tous les éléments qui structurenet et composent la page.
+        1. La balise `<body>` regroupe tous les éléments qui structurent et composent la page.
 
 {{ initexo(0) }}
 
