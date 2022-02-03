@@ -209,9 +209,14 @@
 
   <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
 
+<<<<<<< HEAD
   <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
   <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
   <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+=======
+!!! note "Exemple complet minimal"
+    Ouvrir l'éditeur de texte `Notepad++` (dans `commun/logiciels/`) et y coller le code suivant. Enregistrer le document sous le nom `exemple_minimal.html` par exemple, dans un dossier `HTML` de votre dossier `SNT`. Puis l'ouvrir avec un navigateur (Firefox).
+>>>>>>> 84a26ea1ddf9013de0071b28953e250367bb4f4b
 
 <meta name="theme-color" content="#1e2327">
 <meta name="color-scheme" content="dark light" />
@@ -224,12 +229,16 @@
   <body class="logged-in env-production page-responsive page-blob" style="word-wrap: break-word;">
     
 
+<<<<<<< HEAD
     <div class="position-relative js-header-wrapper ">
       <a href="#start-of-content" class="p-3 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
       <span data-view-component="true" class="progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full">
     <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
 </span>      
       
+=======
+        1. La balise `<body>` regroupe tous les éléments qui structurent et composent la page.
+>>>>>>> 84a26ea1ddf9013de0071b28953e250367bb4f4b
 
 
         <script crossorigin="anonymous" defer="defer" integrity="sha512-guJCgSS1IpPU+NacUrwr8R2DBYuhxkTsh99GbXscnMhk24JrO09lCBHGKOOdpv0eKINz+aEkPVBQPGweOx4kpQ==" type="application/javascript" src="https://github.githubassets.com/assets/command-palette-82e24281.js"></script>
