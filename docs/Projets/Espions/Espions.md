@@ -15,20 +15,20 @@
 	Votre travail:
 	
 	1. Définir la variable `depart` (ligne 37) avec les coordonnées du centre de la carte, entre crochets (à vous de trouver des coordonnées cohérentes).
-	2. Compléter la ligne 41 `positions_spy1 = extract_positions()` en plaçant dans les parenthèses le nom du bon fichier (entre guillemets)
-	3. Compléter la ligne 42.
-	3. Une fois le parcours du premier espion tracé sur la carte, copier-coller et adapter les lignes 41 et 42 pour afficher également le parcours du deuxième espion (d'une autre couleur).
+	2. Compléter la ligne 40 `positions_spy1 = extract_positions()` en plaçant dans les parenthèses le nom du bon fichier (entre guillemets)
+	3. Compléter la ligne 41.
+	3. Une fois le parcours du premier espion tracé sur la carte, copier-coller et adapter les lignes 40 et 41 pour afficher également le parcours du deuxième espion (d'une autre couleur).
 	4. Où a eu lieu l'échange, sachant que pour éviter les soupçons les espions se sont garés à deux endroits différents avant de terminer à pied?
 
 
-Le code à copier-coller dans l'IDE:
+Le code à copier-coller dans l'IDE (EduPython):
 
-```python
+```python linenums='1'
 # Import des modules
 import folium
 import webbrowser
 
-# Lescture et importation des données au format texte
+# Lecture et importation des données au format texte
 def conversion(coord):
     '''convertit des coordonnées issues d'une trame NMEA au format DD'''
     card = coord[1]

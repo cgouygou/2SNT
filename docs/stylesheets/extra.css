@@ -32,3 +32,22 @@ img[src*="#zoom"] {
     cursor: zoom-in;
     /* transform: scale(2.0); */
 }
+
+:root {
+    --md-admonition-icon--history: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5 8H12v5l4.28 2.54.72-1.21-3.5-2.08V8M13 3a9 9 0 0 0-9 9H1l3.96 4.03L9 12H6a7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.896 8.896 0 0 0 13 21a9 9 0 0 0 9-9 9 9 0 0 0-9-9"/></svg>')
+  }
+  .md-typeset .admonition.history,
+  .md-typeset details.history {
+    border-color: rgb(235, 178, 21);
+  }
+  .md-typeset .history > .admonition-title,
+  .md-typeset .history > summary {
+    background-color: rgba(235, 178, 21, 0.1);
+    border-color: rgb(235, 178, 21);
+  }
+  .md-typeset .history > .admonition-title::before,
+  .md-typeset .history > summary::before {
+    background-color: rgb(235, 178, 21);
+    -webkit-mask-image: var(--md-admonition-icon--history);
+            mask-image: var(--md-admonition-icon--history);
+  }
