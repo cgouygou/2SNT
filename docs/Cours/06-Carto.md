@@ -75,7 +75,7 @@ Les différents composants d’un appareil électronique (ex : un téléphone mo
 Le développeur d’une application (par exemple : la galerie photo, parcours de running, un jeu de capture de Pokémons...) souhaitant utiliser la position de l’utilisateur sait qu’il pourra exploiter cette trame pour en déduire les renseignements sur la position.
 
 
-??? tip "Appication smartphone"
+??? tip "Application smartphone"
 	L'application **NMEA Tools** permet d'enregistrer et de sauvegarder des trames NMEA. Important pour récupérer la trace d'un trajet effectué.
 
 	![](images/NMEATools1.png){: .center} 

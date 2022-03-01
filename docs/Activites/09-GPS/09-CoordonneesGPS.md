@@ -4,9 +4,9 @@ Il existe beaucoup de services de cartographie sur le Web, à commencer par le p
 
 Nous essaierons d'utiliser d'autres outils, libres et collaboratifs, comme [OpenStreetMap](https://www.openstreetmap.org/){:target="_blank"}  ou encore [géoportail](https://www.geoportail.gouv.fr/){:target="_blank"} .
 
-![](osm1.png){align=left width=48%} ![](gp1.png){align=right width=48%} 
+[![](osm1.png){align=left width=48%}](https://www.openstreetmap.org/){:target="_blank"}  [![](gp1.png){align=right width=48%}](https://www.geoportail.gouv.fr/){:target="_blank"}
 
-## Adresses et coordonnées GPS
+## 1. Adresses et coordonnées GPS
 
 ???+ note "Utilisation"
     === "OpenStreetMap"
@@ -31,13 +31,13 @@ Nous essaierons d'utiliser d'autres outils, libres et collaboratifs, comme [Open
         Débrouillez-vous.
 
 
-!!! example "Exercice"
+!!! example "Exercice 1"
     À votre avis, que va-t-il se passer lorsqu'on suit l'url suivante: https://www.openstreetmap.org/#map=19/45.64845/0.15621 ? Vérifiez-le.
 
     À quoi correspond la valeur 19?
 
 
-## Conversions
+## 2. Conversions
 
 ![](angouleme_wikipedia.png){align=right}
 
@@ -56,12 +56,14 @@ Par exemple, les coordonnées des villes sur wikipedia sont données au format D
     
     45 + 38/60 + 56/3600 = 45,648889
 
-    Enfin, cette latitude est positive car sa position par rapport à l'équateur est Nord. Une latitude 45°38'45'' S serait donc convertie -45,648889 en décimal.
+    Enfin, cette latitude est positive car sa position par rapport à l'équateur est Nord.
+    
+    Une latitude 45°38'56'' S serait donc convertie -45,648889 en décimal.
 
 !!! warning "Point ou virgule"
     Il ne faut pas confondre notre séparateur décimal, **la virgule**, avec celui des anglo-saxons, **le point**, qui est la norme sur tout système informatique.
 
-!!! example "Exercice"
+!!! example "Exercice 2"
     === "Énoncé"
         Convertissez la longitude d'Angoulême en décimal, puis vérifier en tapant dans la barre d'adresse de votre navigateur une url sur le modèle de celle de l'exercice précédent : https://www.openstreetmap.org/#map=19/?/?
 
@@ -73,13 +75,13 @@ Par exemple, les coordonnées des villes sur wikipedia sont données au format D
 
 Il existe également des sites en ligne qui proposent de convertir automatiquement, comme [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  par exemple.
 
-## Les fonds de cartes de géoportail
+## 3. Les fonds de cartes de géoportail
 
 GéoPortail permet de superposer une multitude de couches différentes sur des domaines très variés.
 
 Quatre couches (appelés fonds de cartes) très utilisées apparaissent en raccourci dans le menu latéral. Le bouton « Voir tous les fonds de carte » permet d’afficher, classés par thèmes, toutes les ressources disponibles (voir en particulier le thème «Territoires et transports»).
 
-!!! example "Exercice"
+!!! example "Exercice 3"
     === "Questions"
 
         1. Mesurer approximativement la superficie de la cité scolaire Valois-Rostand (collège compris).
@@ -106,3 +108,40 @@ sauvignac (dirac) 40 m non
 
 superficie cité scolaire MDV 64550 m2 -->
 
+## 4. Recherche de plus courte distance
+
+Pour un logiciel de cartographie ou une application GPS, une carte n'est ni plus ni moins qu'un graphe.
+
+|  **Carte** | **Graphe** |
+|:--:|:--:|
+|![image](carte_nord_aquitaine.png){: .center width=65%}|![image](graphe_nord_aquitaine.png){: .center width=65%}|
+
+La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
+Il y a des choses que l'on sait... et d'autres que l'on cherche encore !
+
+- **Ce que l'on sait :** trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)
+- **Ce que l'on ne sait pas encore:** trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du [voyageur de commerce](https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce){.target="_blank"}.  
+Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez les chercher, pas comme [Grigori Perelman](https://fr.wikipedia.org/wiki/Grigori_Perelman){.target="_blank"}).
+
+!!! note "L'algorithme de Dijkstra"
+    Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.
+
+    **Principe:**
+
+    - on part du sommet de départ et pour chaque sommet adjacent on note (dans un tableau) les distances qui les séparent;
+    - pour le sommet le plus proche, on recommence l'opération **pour les sommets adjacents non déjà visités** en additionnant les distances précédentes;
+    - on recommence jusqu'à avoir épuisé tous les sommets.
+
+    **Exemple:**
+
+    Quel est le plus court chemin entre Brive et La Rochelle?
+
+    ![image](graphe_nord_aquitaine.png){: align=left width=40%} ![image](tableau_dijkstra.png){: align=right width=55%}
+
+!!! example "Exercice 4"
+    === "Énoncé" 
+        Sur le graphe ci-dessous, trouver le plus court chemin entre le point A et le point H:
+
+        ![](exemple_dijkstra.png){: .center} 
+    === "Correction" 
+       

@@ -6,13 +6,13 @@ Cette activité consiste à bâtir un exposé sur le thème des **réseaux socia
 
 En fonction du groupe qui vous aura été attribué, vous étudierez un des réseaux sociaux ci-dessous :
 
-    - Facebook
-    - Twitter
-    - LinkedIn
-    - Instagram
-    - Snapchat
-    - WhatsApp
-    - Pinterest 
+- Facebook
+- Twitter
+- LinkedIn
+- Instagram
+- Snapchat
+- WhatsApp
+- Pinterest 
 
 !!! abstract "Travail à effectuer pour chaque réseau social"
 
