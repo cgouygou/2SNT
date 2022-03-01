@@ -2,11 +2,11 @@
 
 ## Créer une carte avec le module folium de Python
 
-Le module `folium` de Python permet de créer une carte au format `html` grace à [OpenStreetMap](https://www.openstreetmap.fr/){:target="_blank"} et de l'afficher dans un navigateur à l'aide du module `webbrowser`.
+Le module `folium` de Python permet de créer une carte au format `html` grace à [OpenStreetMap](https://www.openstreetmap.fr/){:target="_blank"} et le module `webbrowser` permet de l'afficher dans un navigateur.
 
 Voici un modèle de programme à copier-coller dans votre IDE, qui va créer une carte représentant l'adresse d'une personne vivant en France (choisie au hasard) et la zone de 1 km à l'intérieur de laquelle elle était autorisée à se déplacer pendant le premier confinement:
 
-```python
+```python linenums='1'
 import folium
 import webbrowser
 
@@ -23,7 +23,7 @@ webbrowser.open('maCarte.html')
 
 !!! info "Explication du code"
     === "Lignes 1 et 2"
-        Cette instruction sert à aller chercher les bons outils pour traiter une image, c'est-à-dire les modules `folium` et `webbrowser`.
+        Ces instructions servent à aller chercher les bons outils pour créer et afficherr une carte, c'est-à-dire les modules `folium` et `webbrowser`.
     
     === "Ligne 4"
         On crée une variable `lieu` qui va contenir les coordonnées GPS d'un endroit qu'on va utiliser par la suite. Il faut respecter la syntaxe : entre crochets, coordonnées séparées par une virgule.

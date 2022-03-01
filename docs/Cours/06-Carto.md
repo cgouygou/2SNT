@@ -3,7 +3,7 @@
 ![](../images/logo_carto.png){: .center} 
 
 
-frise histo tribu jbs ?
+<!-- frise histo tribu jbs ? -->
 
 
 ## 1- Coordonnées géographiques

@@ -53,50 +53,42 @@ Le but de ce projet est d'étudier un mini-réseau social.
 
 
 !!! example "Partie 2: Analyse du graphe"
-    **Deux sommets reliés sont dits adjacents. Une chaîne est une liste de sommets tels que chaque sommet de la liste est adjacent au suivant. La longueur d’une chaîne est le nombre d’arêtes qui la composent.**
 
-    1. Donnez une chaîne de longueur 3 dont tous les sommets sont distincts.
+    1. Deux sommets reliés sont dits adjacents. Une chaîne est une liste de sommets tels que chaque sommet de la liste est adjacent au suivant. La longueur d’une chaîne est le nombre d’arêtes qui la composent.
+        Donnez une chaîne de longueur 3 dont tous les sommets sont distincts.
 
-    **Une chaîne est dite simple si toutes ses arêtes sont distinctes. Si une chaîne simple a le même sommet aux deux extrémités, c’est un cycle.**
+    2. Une chaîne est dite simple si toutes ses arêtes sont distinctes. Si une chaîne simple a le même sommet aux deux extrémités, c’est un cycle.
+        Votre graphe contient-il des cycles ? Si oui, en donner un.
 
-    2. Votre graphe contient-il des cycles ? Si oui, en donner un.
-
-    Un graphe est connexe si pour tout couple de sommets, il existe une chaîne qui contient les deux sommets. Autrement dit, un graphe connexe est d'un seul tenant.
-
+    3.Un graphe est connexe si pour tout couple de sommets, il existe une chaîne qui contient les deux sommets. Autrement dit, un graphe connexe est d'un seul tenant.
         Votre graphe est-il connexe ?
 
-    Le degré d’un sommet est le nombre d’arêtes qui lui l’ont pour extrémité.
-
+    4. Le degré d’un sommet est le nombre d’arêtes qui lui l’ont pour extrémité.
         Quels sont les sommets de plus haut degré de votre graphe ?
 
-    La distance entre les sommets A et B est la longueur de la plus courte chaîne qui commence sur A et se termine sur B.
-
+    5. La distance entre les sommets A et B est la longueur de la plus courte chaîne qui commence sur A et se termine sur B.
         La table suivante donne les distances entre chaque couple de sommets. Il y a toutefois certaines valeurs manquantes. Complétez ces valeurs.
 
     ![](../../images/RS_tableau.png){: .center} 
 
 
-    Pour connaître l’écartement, ou excentricité, d’un sommet, on doit calculer sa distance à chacun des autres sommets du graphe. La distance maximale obtenue est l’excentricité du sommet.
-
+    6. Pour connaître l’écartement, ou excentricité, d’un sommet, on doit calculer sa distance à chacun des autres sommets du graphe. La distance maximale obtenue est l’excentricité du sommet.
         Calculez l’excentricité de chacun des sommets en utilisant la table précédente.
 
-    Les centres du graphe sont les sommets d’excentricité minimale.
-
+    7. Les centres du graphe sont les sommets d’excentricité minimale.
         Quels sont les centres du graphe ?
 
-    Le rayon du graphe est l’excentricité d’un des centres.
-
+    8. Le rayon du graphe est l’excentricité d’un des centres.
         Quel est le rayon de votre graphe ?
 
-    Le diamètre d’un graphe est la distance entre les deux sommets les plus éloignés (ils peut y avoir plusieurs couples de sommets qui sont les couples les plus éloignés).
-
+    9. Le diamètre d’un graphe est la distance entre les deux sommets les plus éloignés (ils peut y avoir plusieurs couples de sommets qui sont les couples les plus éloignés).
         Quel est le diamètre du graphe ?
         Quels sont les couples de sommets diamétralement opposés ? C’est à dire dont la distance vaut le diamètre du graphe ?
 
-    Pour terminer:
-
-        Si on supprime certains sommets, le graphe ne sera plus connexe. Quels sont ces sommets (la suppression d’un seul d’entre eux rompra la connexité du graphe) ?
-        Quelle est la distance moyenne entre deux sommets ? Dans le monde réel, que vaudrait cette distance environ ?
+    10. Si on supprime certains sommets, le graphe ne sera plus connexe.
+        Quels sont ces sommets (la suppression d’un seul d’entre eux rompra la connexité du graphe) ?
+    
+    11. Quelle est la distance moyenne entre deux sommets ? Dans le monde réel, que vaudrait cette distance environ ?
 
 
 !!! example "Partie 3: Diffusion de messages"
