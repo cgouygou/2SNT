@@ -5,10 +5,15 @@ L’objectif de cette activité est de réaliser une carte du monde répertorian
 On utilisera les données ouvertes disponibles à l’adresse : [https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php](https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php){target="blank"}
 
 !!! info "Consignes"
+    1. Copier_coller le code ci-dessous dans EduPython, et l'enregistrer tout de suite sous le nom `seismes.py`.
 
-    1. À l'adresse ci-dessus, sur la partie droite de la page, choisir les données qui vous intéressent (magnitude, période): ouvrez le fichier csv en lien, et **copier le lien**.
+    2. À l'adresse ci-dessus, sur la partie droite de la page, choisir les données qui vous intéressent (magnitude, période) et **copier le lien**. Le coller ligne 11, entre guillemets, pour l'affecter à la variable `url`.
 
     2. Dans ce fichier, repérer les colonnes indiquant les informations nécessaires (latitude, longitude, magnitude) en les numérotant (sachant que la colonne A correspond à 0, la colonne B à 1, etc.)
+
+    
+
+    4. 
 
 !!! example "Code à compléter"
     ```python linenums='1'
