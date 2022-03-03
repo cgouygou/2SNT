@@ -60,19 +60,19 @@ Le but de ce projet est d'étudier un mini-réseau social.
     2. Une chaîne est dite simple si toutes ses arêtes sont distinctes. Si une chaîne simple a le même sommet aux deux extrémités, c’est un cycle.
         **Votre graphe contient-il des cycles ? Si oui, en donner un.**
 
-    3. Un graphe est connexe si pour tout couple de sommets, il existe une chaîne qui contient les deux sommets. Autrement dit, un graphe connexe est d'un seul tenant.
+    3. Un graphe est connexe si on peut toujours trouver une chaîne reliant n'importe quel couple de sommets. Autrement dit, un graphe connexe est d'un seul tenant.
         **Votre graphe est-il connexe ?**
 
-    4. Le degré d’un sommet est le nombre d’arêtes qui lui l’ont pour extrémité.
+    4. Le degré d’un sommet est le nombre d’arêtes qui l’ont pour extrémité.
         **Quels sont les sommets de plus haut degré de votre graphe ?**
 
     5. La distance entre les sommets A et B est la longueur de la plus courte chaîne qui commence sur A et se termine sur B.
-        La table suivante donne les distances entre chaque couple de sommets. Il y a toutefois certaines valeurs manquantes. **Complétez ces valeurs**.
+        Le tableau suivant donne les distances entre chaque couple de sommets. Il y a toutefois certaines valeurs manquantes. **Complétez ces valeurs**.
     ![](../../images/RS_tableau.png){: .center} 
 
 
     6. Pour connaître l’écartement, ou excentricité, d’un sommet, on doit calculer sa distance à chacun des autres sommets du graphe. La distance maximale obtenue est l’excentricité du sommet.
-        **Calculez l’excentricité de chacun des sommets en utilisant la table précédente.**
+        **Calculez l’excentricité de chacun des sommets en utilisant le tableau précédent.**
 
     7. Les centres du graphe sont les sommets d’excentricité minimale.
         **Quels sont les centres du graphe ?**
@@ -96,5 +96,5 @@ Le but de ce projet est d'étudier un mini-réseau social.
 
     Il sait que chaque personne, en un jour, aura communiqué l’information à chacun de ses amis.
 
-    1. À qui doit il la communiquer s’il souhaite que le plus de monde dispose de l’information au bout d’un jour ?
+    1. À qui doit-il la communiquer s’il souhaite que le plus de monde dispose de l’information au bout d’un jour ?
     2. Même question, mais au bout de 2, 3, ou 4 jours.
