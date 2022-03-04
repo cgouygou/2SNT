@@ -6,7 +6,7 @@ Le but de ce projet est d'étudier un mini-réseau social.
 !!! example "Partie 1: Construction du graphe"
     À partir des données suivantes, construisez un graphe qui représente les relations d’amitié (au moins à un certain moment...) entre des personnages de la saga : *A Song of Ice and Fire*.
 
-    Vous pouvez (ce n'est pas une obligation) utiliser le site web : [https://graphonline.ru/en/](https://graphonline.ru/en/){:target="_blank"} 
+    Vous pouvez (ce n'est pas une obligation) utiliser les sites web  [https://graphonline.ru/en/](https://graphonline.ru/en/){:target="_blank"} ou [https://lukaszkostrzewa.dev/graphy/](https://lukaszkostrzewa.dev/graphy/){:target="_blank"}, ou bien le logiciel GeoGebra.
 
     On suppose que les relations d’amitié sont réciproques. Dans le graphe obtenu, deux personnages (deux sommets du graphe) seront reliés s’ils ont une liaison d’amitié :
 
