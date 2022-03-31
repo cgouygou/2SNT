@@ -3,7 +3,7 @@
 !!! abstract "Contexte"
 	Les services du contre-espionnage angoumoisin (le SCA) ont intercepté un message d'espions bordelais qui révèle qu'un échange de documents top-secrets a eu lieu quelque part dans le vieil Angoulême... À vous de retrouver le lieu de l'échange, pour pouvoir consulter les bonnes caméras de surveillance et de démasquer ces espions...
 
-	Pour vous aider, le SCA a également détecté les positions des smartphones des deux espions (ce sont des espions débutants) quelques instants avant l'échange... Ces positions sont des trames NMEA à disposition dans les fichiers [`spy1.nmea`](spy1.nmea) et [`spy2.nmea`](spy2.nmea) fournis.
+	Pour vous aider, le SCA a également détecté les positions des smartphones des deux espions (ce sont des espions débutants) quelques instants avant l'échange... Ces positions sont des trames NMEA à disposition dans les fichiers [`spy1.nmea`](spy1.nmea) et [`spy2.nmea`](spy2.nmea) fournis (cliquez dessus pour les télécharger).
 	
 
 !!! info "Consignes / Indications"
@@ -16,7 +16,7 @@
 	
 	1. Définir la variable `depart` (ligne 37) avec les coordonnées du centre de la carte, entre crochets (à vous de trouver des coordonnées cohérentes).
 	2. Compléter la ligne 40 `positions_spy1 = extract_positions()` en plaçant dans les parenthèses le nom du bon fichier (entre guillemets)
-	3. Compléter la ligne 41.
+	3. Compléter la ligne 41 : regarder attentivement les paramètres de la fonction `affiche_parcours`...
 	3. Une fois le parcours du premier espion tracé sur la carte, copier-coller et adapter les lignes 40 et 41 pour afficher également le parcours du deuxième espion (d'une autre couleur).
 	4. Où a eu lieu l'échange, sachant que pour éviter les soupçons les espions se sont garés à deux endroits différents avant de terminer à pied?
 

@@ -7,9 +7,9 @@ On utilisera les données ouvertes (déjà utilisées à l'activité [Formats ou
 !!! info "Consignes"
     1. Copier-coller le code ci-dessous dans EduPython, et l'enregistrer tout de suite sous le nom `seismes.py`.
 
-    2. À l'adresse ci-dessus, sur la partie droite de la page, choisir les données qui vous intéressent (magnitude, période) et **copier le lien**. Le coller ligne 11, entre guillemets, pour l'affecter à la variable `url`.
+    2. À l'adresse ci-dessus, sur la partie droite de la page, choisir les données qui vous intéressent (magnitude, période) et **copier le lien** (clic-droit sur le lien). Le coller ligne 11, entre guillemets, pour l'affecter à la variable `url`.
 
-    3. Dans ce fichier, repérer les colonnes indiquant les informations nécessaires (latitude, longitude, magnitude) en les numérotant (sachant que la colonne A correspond à 0, la colonne B à 1, etc.)
+    3. Ouvrir ce fichier avec LibreOffice Calc et repérer colonnes indiquant les informations nécessaires (latitude, longitude, magnitude) en les numérotant (sachant que la colonne A correspond à 0, la colonne B à 1, etc.)
 
     4. Ligne 15 du code, on crée un tableau `tremblements_csv` comportant les données issues du fichier csv. Ligne 20, on parcourt chaque ligne de ce tableau à l'aide d'une boucle `for`. Ligne 21 on crée une variable `latitude` contenant la valeur située dans la ligne du tableau, en colonne **numérotée 1**. Créer une variable `longitude` en ligne 22, de la même façon, en précisant le numéro de la colonne correspondante (cf. question 3.). 
 
@@ -30,7 +30,7 @@ On utilisera les données ouvertes (déjà utilisées à l'activité [Formats ou
     import webbrowser
 
     ## Création d'une carte vierge
-    carte_tremblements = folium.Map(location=[0,0], zoom_start=2)
+    c = folium.Map(location=[0,0], zoom_start=2)
 
     ## Importation des données au format csv
     url =
@@ -49,7 +49,7 @@ On utilisera les données ouvertes (déjà utilisées à l'activité [Formats ou
 
 
     ## Affichage de la carte
-    carte_tremblements.save('maCarte.html')
-    webbrowser.open('maCarte.html')
+    c.save('carte_seismes.html')
+    webbrowser.open('carte_seismes.html')
     ```
 
