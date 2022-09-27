@@ -29,7 +29,7 @@ Par exemple, voici comme on pourrait payer 100 £eibits:
 
 Activité à consulter ici : [https://cgouygou.github.io/2SNT/Projets/Perseverance/perseveranceSNT/](https://cgouygou.github.io/2SNT/Projets/Perseverance/perseveranceSNT/)
 
-## 3- Conversions avec Python
+## 4- Conversions avec Python
 
 ### Du décimal vers le binaire
 
