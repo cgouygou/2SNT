@@ -25,14 +25,18 @@ Par exemple, voici comme on pourrait payer 100 £eibits:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRdp_vaNRoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+## 3- Le parachute de Persévérance
+
+Activité à consulter ici : [https://cgouygou.github.io/2SNT/Projets/Perseverance/perseveranceSNT/](https://cgouygou.github.io/2SNT/Projets/Perseverance/perseveranceSNT/)
+
 ## 3- Conversions avec Python
 
 ### Du décimal vers le binaire
 
-Pour obtenir l’écriture binaire d’un nombre entier écrit en décimal, par exemple 2021, il suffit de taper dans un terminal:
+Pour obtenir l’écriture binaire d’un nombre entier écrit en décimal, par exemple 2022, il suffit de taper dans un terminal:
 
 ```python
-bin(2021)
+bin(2022)
 ```
 
 Faites-le ci-dessous:
@@ -40,7 +44,7 @@ Faites-le ci-dessous:
 {{ terminal() }}
 
 ??? note "Remarque"
-    Attention, ce qui est renvoyé par cette fonction est une chaîne de caractères (entre simples guillemets). L’écriture en binaire de 2021 est donc 11111100101. Le `0b` indique que c’est... du binaire.
+    Attention, ce qui est renvoyé par cette fonction est une chaîne de caractères (entre simples guillemets). L’écriture en binaire de 2022 est donc 11111100110. Le `0b` indique que c’est... du binaire.
 
 ### Du binaire vers le décimal
 
@@ -51,10 +55,13 @@ C'est encore plus simple. Il suffit de taper dans un terminal le nombre binaire 
 
 !!! question "Question"
     === "Énoncé"
+        Pour répondre aux questions suivantes, effectuer les conversions nécessaires dans le terminal ci-dessus et faites-en une capture d'écran à insérer dans votre compte-rendu.
+        
+        1. Quel est le plus grand nombre que l'on peut écrire avec 16 bits?
         1. Choisir 3 nombres. Les convertir en binaire.
         2. Calculer les doubles de ces 3 nombres et les convertir en binaire.
         3. Comment multiplie-t-on les nombres par 2 en binaire?
 
-    === "Solution"
-        Il suffit de décaler l'écriture binaire vers la gauche en ajoutant un `0` à droite.
+<!--     === "Solution"
+        Il suffit de décaler l'écriture binaire vers la gauche en ajoutant un `0` à droite. -->
 
