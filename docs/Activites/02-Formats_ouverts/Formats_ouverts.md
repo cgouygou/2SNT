@@ -65,7 +65,7 @@
 
 Cet API peut s'interroger avec Python en lançant une requête `GET`.
 
-Copiez-collez le code ci-dessous dans votre IDE, en complétant la ligne 4 avec l'url (entre guillemets) que l'on souhaite consulter.
+Copiez-collez le code ci-dessous dans votre IDE (EduPython au lycée), en complétant la ligne 4 avec l'url (entre guillemets) que l'on souhaite consulter (c'est-à-dire celle de l'exercice précédent...).
 
 ```python
 import json
@@ -79,23 +79,23 @@ print(rep)
 !!! example "{{ exercice() }}"
     Normalement, vous devez obtenir une `<Response [#]>` qui indique que la requête a abouti correctement... Si vous obtenez une `<Response [404]>`, c'est qu'il y a un souci... Quel est le numéro de la réponse?
 
-À l'aide de l'inspecteur d'objet de l'IDE, on s'aperçoit que la variable `rep` est complexe et contient tout un tas d'informations sur cette requête. On va s'intéresser à son attribut `content` et le traduire au format `json` pour qu'il soit exploitable.
+La variable `rep` est complexe et contient tout un tas d'informations sur cette requête. On va s'intéresser à son attribut `content` et le traduire au format [`json`](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation){:target="_blank"} - un format qui permet de représenter des données **structurées** pour qu'il soit exploitable.
 
-Ajoutez les lignes suivantes à votre programme:
+Ajoutez les lignes suivantes à votre programme, où la nouvelle variable `data` est un **dictionnaire**, qui comporte des clés d'entrée (keys) et des valeurs (values).
 
 ```python
-data = json.loads(rep.content)
-print(data.keys())
-print(data['number'])
+data = json.loads(rep.content) # on charge le contenu de rep dans une variable appelée data, au format dictionnaire
+print(data.keys())             # on affiche les clés du dictionnaire
+print(data['number'])          # on affiche la valeur associée à la clé 'number'
 ```
 
-Cette nouvelle variable `data` est un **dictionnaire**, qui comporte des clés d'entrée (keys) et des valeurs (values).
 
 !!! example "{{ exercice() }}"
     2. Quels sont les 3 clés de ce dictionnaire?
     3. Quelle est la valeur de la clé `number`? Que représente-t-elle?
+    4. Afficher les valeurs des autres clés.
 
-On peut ensuite parcourir ce dictionnaire pour afficher les données sous forme plus «humaine».
+La valeur associée à la clé `people` est également un dictionnaire. On peut parcourir ce dictionnaire pour afficher les données sous forme plus «humaine».
 
 Ajoutez ces lignes:
 

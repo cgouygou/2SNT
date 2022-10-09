@@ -3,7 +3,7 @@
 Cette activité consiste à bâtir un exposé sur le thème du **Big Data**.
 
 !!! abstract "Fond"
-    Votre exposé devra répondre aux questions:
+    Votre exposé devra répondre aux questions (a minima):
 
     - Qu'appelle-t-on le «Big Data»?
     - À partir de quand emploie-t-on cette expression?
