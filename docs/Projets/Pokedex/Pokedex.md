@@ -19,7 +19,7 @@ L'objectif de ce projet est de réaliser des opérations de traitement sur des d
 
 Le fichier contient beaucoup d'enregistrements (environ 800). Pour obtenir les renseignements souhaités, il est donc nécessaire de traiter ces données, en appliquant des **tris** et des **filtres**.
 
-### 2.1 Exemple de Tri
+### 2.1 Exemple de tri
 
 1. Sélectionner tout le tableau (par les colonnes, c'est plus rapide).
 2. Dans le menu **Données**, cliquer sur **Trier**.
