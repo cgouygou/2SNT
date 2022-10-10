@@ -1,7 +1,7 @@
 # Sommaire des projets
 
 - [Le parachute de Perseverance](../Perseverance/perseveranceSNT/)
-- Pokédex
+- [Pokédex](../Pokedex/Pokedex)
 - [Travolta's meme](../Travolta/travolta/)
 - [Network of Thrones](../NoT/NoT)
 - [Chasse au trésor](../Tresor/tresor)
