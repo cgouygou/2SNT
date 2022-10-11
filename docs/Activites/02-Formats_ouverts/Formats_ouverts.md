@@ -84,7 +84,7 @@ La variable `rep` est complexe et contient tout un tas d'informations sur cette 
 Ajoutez les lignes suivantes à votre programme, où la nouvelle variable `data` est un **dictionnaire**, qui comporte des clés d'entrée (keys) et des valeurs (values).
 
 ```python
-data = json.loads(rep.content) # on charge le contenu de rep dans une variable appelée data, au format dictionnaire
+data = json.loads(rep.content.decode('utf-8')) # on charge le contenu de rep dans une variable appelée data, au format dictionnaire
 print(data.keys())             # on affiche les clés du dictionnaire
 print(data['number'])          # on affiche la valeur associée à la clé 'number'
 ```
