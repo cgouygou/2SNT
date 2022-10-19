@@ -14,11 +14,11 @@ Une **métadonnée** est  une  donnée  particulière  qui  donne  des informati
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N6XJXkeW5OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-
+<!-- 
 ??? example "Frise à compléter"
     Compléter la frise suivante (tout n'est pas dans la vidéo):
 
-    <iframe src="https://learningapps.org/watch?v=p5n22p4hn19" style="border:0px;width:100%;height:500px" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    <iframe src="https://learningapps.org/watch?v=p5n22p4hn19" style="border:0px;width:100%;height:500px" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe> -->
 
 ## 2- Formats de fichiers
 
