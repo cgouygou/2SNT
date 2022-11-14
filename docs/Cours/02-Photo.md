@@ -11,13 +11,16 @@ La photographie numérique a révolutionné le domaine de la photographie par la
 
 Visionnez les deux vidéos suivantes.
 
-[![](images/video2.png){: .center .w640} ](https://www.01net.com/mediaplayer/video/le-capteur-photo-numerique-qu-est-ce-que-c-est-01focus-888661.html){:target="_blank"}
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ycx9tWZNRQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 <p align="center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/UnNPNc-F9ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-Une troisième pour les curieux:
+Une troisième un peu plus techniques pour les curieux (visionner jusqu'à 10:35):
 
 <p align="center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/eY4s1sVsiAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +31,7 @@ Une troisième pour les curieux:
 
 ## 2- L'image numérique
 
-??? info "Les caractéristiques d'une image"
+!!! info "Les caractéristiques d'une image"
     === "Quadrillage"
         Une image numérique se présente sous la forme d’un quadrillage - ou d'un tableau - dont chaque case est un pixel d’une couleur donnée. On peut donc repérer chaque pixel par sa ligne et sa colonne dans ce quadrillage, à l'aide de coordonnées en partant du coin en haut à gauche.
         
@@ -45,23 +48,26 @@ Une troisième pour les curieux:
         Par exemple, la résolution standard pour affichage sur le web est de 72 ppp (pixels par pouce) alors qu'une résolution de 300 ppp est recommandée pour l'impression.
 
 
-??? info "Le codage des pixels (couleurs)"
-    Chaque pixel correspond à un triplet de trois nombres entiers, soit les valeurs de rouge (Red), de vert (Green) et de bleu (Blue) afin de reconstituer la couleur. Chaque valeur est codée entre 0 et 255 (ou en pourcentages, ou en , voir [ici](https://fr.wikipedia.org/wiki/Rouge_vert_bleu#Codes_pratiques){:target="_blank"}  hexadécimal). On parle de code RGB (RVB in french).
+!!! info "Le codage des pixels (couleurs)"
+    Chaque pixel correspond à un triplet de trois nombres entiers, soit les valeurs de rouge (Red), de vert (Green) et de bleu (Blue) afin de reconstituer la couleur. Chaque valeur est codée entre 0 et 255 (ou en pourcentages, ou en hexadécimal, voir [ici](https://fr.wikipedia.org/wiki/Rouge_vert_bleu#Codes_pratiques){:target="_blank"}). On parle de code RGB (RVB in french).
 
     ![](images/chromato.jpg){: .center} 
 
     À noter qu'une couleur dont les 3 composantes sont identiques correspond à un niveau de gris.
 
-!!! tip "Site incontournable"
-    Un site pour visualiser les couleurs au formet RGB, et convertir en héxadécimal : [http://www.proftnj.com/RGB3.htm](http://www.proftnj.com/RGB3.htm){:target="_blank"}  
+!!! tip "Sites incontournables"
+    Pour visualiser les couleurs au format RGB, et convertir en hexadécimal : 
+    
+    - [http://www.proftnj.com/RGB3.htm](http://www.proftnj.com/RGB3.htm){:target="_blank"}  
+    - [https://www.w3schools.com/colors/colors_rgb.asp](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} 
 
-??? info "La capture de l'image"
+!!! info "La capture de l'image"
     On appelle «image numérique» toute image acquise et stockée sous forme binaire: elle peut se définir comme une suite de 0 et de 1. Le format  d’une  image  numérique  est  la  manière  dont  est  codée  cette suite de 0 et de 1 (bits). Lors de la capture par l’appareil photo, un fichier au format RAW est produit, mais est inexploitable pour visualiser l'image: il s’agit des données brutes issues du capteur. En général, les données sont immédiatement modifiées et enregistrées dans un autre format.
 
     Différents algorithmes de traitement de l'image interviennent lors de ces conversions.
 
 
-??? info "Les formats usuels"
+!!! info "Les formats usuels"
     Il existe de nombreux formats d’image qui sont indiqués par l’extensiondu nom du fichier. Les images sont fréquemment compressées, c’est-à-dire transformées  pour  réduire  leur  taille. Cette  compression  peut  se faire avec ou sans perte d’information. Les appareils peuvent proposer trois formats d’enregistrement: RAW, Tiff et JPEG
 
     === "RAW"
@@ -132,7 +138,7 @@ Une troisième pour les curieux:
 
 ![](images/The_GIMP_icon.svg){width=125px align=left}
 
-**GIMP** (pour GNU Image Manipulation Program) est le logiciel libre le plus complet et le plus utilisé pour à la fois dessiner des images et traiter des photographie numériques. 
+**GIMP** (pour GNU Image Manipulation Program) est le logiciel libre le plus complet et le plus utilisé pour à la fois dessiner des images et traiter des photographies numériques. 
 
 Site officiel : [https://www.gimp.org](https://www.gimp.org){:target="_blank"} et [documentation en français](https://docs.gimp.org/2.10/fr/){:target="_blank"}.
 
