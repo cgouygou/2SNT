@@ -4,7 +4,7 @@
 
 Dans EduPython, copier-coller le code suivant et l'exécuter:
 
-```python
+```python linenums='1'
 from PIL import Image
 
 couleur_fond = (128, 128, 128)
@@ -67,7 +67,7 @@ Pour modifier **tous** les pixels d'une image, il faut donc parcourir toutes les
 
 Copier-coller ce code dans un nouveau document:
 
-```python
+```python linenums='1'
 from PIL import Image
 
 largeur = 255
@@ -156,7 +156,7 @@ Nous allons jouer avec les pixels de l'image ci-dessous.
 
 ![](ara.jpg){: width=50% .center}
 
-```python
+```python linenums='1'
 from PIL import Image
 
 img_base = Image.open("ara.jpg")
@@ -239,7 +239,7 @@ Cette image est-elle vraiment composée de pixels tous noirs?
     === "Égalité?"
         En Python on peut tester si deux valeurs sont égales avec l'opérateur `==`:
 
-        ```python title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
+        ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
         a = 2
         b = 3
         if a == b:
@@ -251,7 +251,7 @@ Cette image est-elle vraiment composée de pixels tous noirs?
     === "Plusieurs comparaisons"
         On peut également tester plusieurs comparaisons en même temps avec l'opérateur `and`:
 
-        ```python title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
+        ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
         a = 2
         b = 3
         c = 12
