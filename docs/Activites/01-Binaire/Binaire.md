@@ -14,11 +14,15 @@ Par exemple, voici comme on pourrait payer 100 £eibits:
 ![](100.png){: .center}
 
 !!! Example "À vous de jouer!"
-    1. À tour de rôle, choisir quelques montants et les payer. Y a-t-il plusieurs choix de billets possibles pour un montant donné?
-    2. Quel montant maximum peut-on payer?
-    3. Essayer de trouver un montant impossible à payer.
+    === "Énoncé" 
+        1. À tour de rôle, choisir quelques montants et les payer. Y a-t-il plusieurs choix de billets possibles pour un montant donné?
+        2. Quel montant maximum peut-on payer?
+        3. Essayer de trouver un montant impossible à payer.
 
-
+    === "Correction" 
+        1. Il n'y a toujours qu'une seule façon de payer.
+        2. On peut payer au maximum 255 £eibits en prenant tous les billets (128+64+32+16+8+4+2+1=255).
+        3. On peut payer tous les montants entre 0 et 255 £eibits. Au-delà, bien entendu, non...
 ## 2- Bilan
 
 <p align="center">
@@ -62,6 +66,32 @@ C'est encore plus simple. Il suffit de taper dans un terminal le nombre binaire 
         2. Calculer les doubles de ces 3 nombres et les convertir en binaire.
         3. Comment multiplie-t-on les nombres par 2 en binaire?
 
-<!--     === "Solution"
-        Il suffit de décaler l'écriture binaire vers la gauche en ajoutant un `0` à droite. -->
+    === "Correction" 
+        1. Le plus grand nombre que l'on peut écrire avec 16 bits est `1111111111111111` qui correspond au nombre 65535:
+            ```python
+            >>> int('1111111111111111', 2)
+            65535
+            ```
+            
+        2. Je choisis  23,  42 et 78.
+            ```python
+            >>> bin(23)
+            '0b10111'
+            >>> bin(42)
+            '0b101010'
+            >>> bin(78)
+            '0b1001110'
+            ```
+            
+
+        3. On multiplie par 2, soit 46, 84 et 156 (on n'est pas obligé d'effectuer les multiplications, on peut laisser Python le faire pour nous...):
+            ```python
+            >>> bin(23*2)
+            '0b101110'
+            >>> bin(42*2)
+            '0b1010100'
+            >>> bin(78*2)
+            '0b10011100'
+            ```
+        4. Il suffit de décaler l'écriture binaire vers la gauche en ajoutant un `0` à droite.
 

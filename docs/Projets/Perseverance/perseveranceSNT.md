@@ -42,6 +42,14 @@ Sur le premier groupe, en supposant que blanc vaut 0 et rouge vaut 1, on obtient
 	
 	    La dernière est différente des trois autres, saurez-vous l'interpréter correctement?
 	
+    === "Solution"
+        On obtient les mots «DARE MIGHTY THINGS» (*Osez de grandes choses*).
+
+        La dernière couronne donne les nombres 34/11/58/14/118/10/31/23, ce qu'il faut interpréter comme des coordonnées géographiques: 34°11’58’’N,118°10’31’’W.
+
+        En cherchant sur un service de cartographie, on obtient un lieu...
+
+        ![](JPL.png){: .center width=640} 
 	
 
 ##Liens
