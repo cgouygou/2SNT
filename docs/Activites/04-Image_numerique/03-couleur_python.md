@@ -55,7 +55,7 @@ for x in range(300):
     img.putpixel((x, 50), (0, 255, 0))
 ```
 
-!!! example "Exercice"
+!!! example "Exercice 1"
     Adapter le code précédent pour ajouter dans votre image une ligne bleue et verticale (à l'abscisse 100 par exemple). Vous devriez obtenir:
 
     ![](putpixel.png){: .center}
@@ -111,11 +111,11 @@ C'est mieux, non?
     2
     ```
 
-!!! example "Exercice"
+!!! example "Exercice 2"
     Générer une image où toutes les composantes RGB des pixels sont choisies aléatoirement entre 0 et 255.
 
 
-!!! example "Exercice"
+!!! example "Exercice 3"
     Copier et enregistrer dans un nouveau document `drapeau.py` le code suivant:
 
     ```python linenums='1'
@@ -207,7 +207,7 @@ img_modif.save("new_ara.jpg")
 
 Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette image en modifiant essentiellement les lignes 16, 17 et 18. Voici quelques exemples, modifiez le code pour les réaliser.
 
-!!! example "Créez votre effet"
+!!! example "Exercice 4 : Créez votre effet"
     === "Filtre rouge"
         Pour créer un filtre rouge il suffit de conserver la composante rouge et de remplacer les autres composantes par 0.
 
@@ -230,33 +230,34 @@ Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette 
 
 ### 5. Énigme
 
-Cette image est-elle vraiment composée de pixels tous noirs?
+!!! example "Exercice 5"
+    Cette image est-elle vraiment composée de pixels tous noirs?
 
-![](message.png){: .center}
+    ![](message.png){: .center}
 
 
-??? info "Indication"
-    === "Égalité?"
-        En Python on peut tester si deux valeurs sont égales avec l'opérateur `==`:
+    ??? info "Indication"
+        === "Égalité?"
+            En Python on peut tester si deux valeurs sont égales avec l'opérateur `==`:
 
-        ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
-        a = 2
-        b = 3
-        if a == b:
-            print("a et b sont égales")
-        else:
-            print("a et b sont différentes")
-        ```
-    
-    === "Plusieurs comparaisons"
-        On peut également tester plusieurs comparaisons en même temps avec l'opérateur `and`:
+            ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
+            a = 2
+            b = 3
+            if a == b:
+                print("a et b sont égales")
+            else:
+                print("a et b sont différentes")
+            ```
+        
+        === "Plusieurs comparaisons"
+            On peut également tester plusieurs comparaisons en même temps avec l'opérateur `and`:
 
-        ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
-        a = 2
-        b = 3
-        c = 12
-        if a <= b and c > b:
-            print("ok")
-        else:
-            print("pas ok")
-        ```
+            ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
+            a = 2
+            b = 3
+            c = 12
+            if a <= b and c > b:
+                print("ok")
+            else:
+                print("pas ok")
+            ```
