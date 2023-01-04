@@ -223,7 +223,8 @@ Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette 
         
         $m = 0.2126 \times r + 0.7152 \times g + 0.0722 \times b$
 
-        Faites-le.
+        1. Définir une variable `m` en utilisant la formule précédente (à insérer ligne 15).
+        2. Affecter à chaque nouvelle composante la valeur `int(m)` (c'est-à-dire la valeur de `m` convertie en nombre entier).
 
     === "Floutage (pour les experts)"
         Pour flouter une image, il «suffit» de définir un carré autour d'un pixel, de calculer la moyenne des composantes et de remplacer le pixel par ces moyennes.
