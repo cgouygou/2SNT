@@ -1,22 +1,24 @@
-# Accueil SNT en Seconde
+# Accueil SNT - Groupes - M. Gouygou
 
-![](images/logo_SNT.png){: .center}
 
-<!-- <p align="center">
-<img src="data/logo_SNT.png"  width=" 640 "/> 
-</p> -->
+![mdv](images/logo_MdV_site.png){: .center width=480} 
+
+
+
+![](images/logo_SNT.png){: .center width=480}
+
 
 ## Programme
 
 !!! abstract "Le [programme](data/ProgrammeSNT.pdf) de SNT est articulé autour de sept thèmes:"
 
-    === "Données structurées"
+    === "T1-Données structurées"
         [![](images/logo_data.png){align=left}](Cours/01-Data/)
         
         Les données constituent la matière première de toute activité numérique. Afin de permettre leur réutilisation, il est nécessaire de les conserver de manière persistante. Les structurer correctement garantit que l’on puisse les exploiter facilement pour produire de l’information.
 
         Comment traiter ces données?
-    === "Photo numérique"
+    === "T2-Photo numérique"
 
         [![](images/logo_photo.png){align=left}](Cours/02-Photo/)
         
@@ -24,26 +26,26 @@
 
         Comment sont représentées ces images sur un ordinateur et comment les traiter pour les modifier?
 
-    === "Internet"
+    === "T3-Internet"
         [![](images/logo_internet.png){align=left}](Cours/03-Internet/)
 
         Grâce à sa souplesse et à son universalité, Internet est devenu le moyen de communication principal entre les hommes et avec les machines.
 
         Quels sont les techniques et protocoles qui permettent la circulation des informations sur ce réseau mondial?
-    === "Web"
+    === "T4-Web"
         [![](images/logo_web.png){align=left}](Cours/04-Web/)
 
         Le Web (toile) désigne un système donnant accès à un ensemble de données (page, image, son, vidéo) reliées par des liens hypertextes et accessibles sur le réseau Internet.
 
         Comment sont construites les pages Web et comment communiquer avec un serveur?
 
-    === "Réseaux sociaux"
+    === "T5-Réseaux sociaux"
         [![](images/logo_RS.png){align=left}](Cours/05-RS/)
 
         Les réseaux sociaux sont des applications basées sur les technologies du Web qui offrent un service de mise en relation d’internautes pour ainsi développer des communautés d’intérêts.
 
         Comment ces réseaux gèrent les données des utilisateurs et comment mettent-ils en place les services de recommandation/suggestion?
-    === "Localisation /cartographie"
+    === "T6-Localisation /cartographie"
         [![](images/logo_carto.png){align=left}](Cours/06-Carto/)
 
         La cartographie est essentielle pour beaucoup d’activités : agriculture, urbanisme, transports, loisirs, etc. Elle a été révolutionnée par l’arrivée des cartes numériques accessibles depuis les ordinateurs, tablettes et téléphones, bien plus souples à l’usage que les cartes papier.
@@ -51,7 +53,7 @@
         Comment se repérer sur ces cartes et comment calculer un itinéraire?
 
 
-    === "Objets connectés"
+    === "T7-Objets connectés"
         [![](images/logo_objets.png){align=left}](Cours/07-Objets/)
         Embarquer l’informatique dans les objets a beaucoup d’avantages : simplifier leur fonctionnement, leur donner plus de possibilités d’usage et de sûreté, et leur permettre d’intégrer de nouvelles possibilités à matériel constant par simple modification de leur logiciel.
 
@@ -62,23 +64,44 @@
 
 ## Organisation
 
-??? abstract "Les séances seront réparties entre:"
+Les séances seront réparties entre:
 
-    === "Activités"
-        des activités de découverte des notions, en classe;
+- des activités de découverte des notions ou des TP d'initiation à la programmation, en classe;
+- des exposés (notés) pour découvrir une notion par soi-même, pour apprendre à travailler en groupe et partager son travail;
+- des résumés de cours pour connaître l'essentiel de chaque thème, à étudier en autonomie;
+- des tests rapides pour vérifier que le travail a été correctement effectué.
 
-    === "Exposés"
-        pour découvrir une notion par soi-même, pour apprendre à travailler en groupe et partager son travail;
+!!! history "Planning prévisionnel"
+    === "Période 1 - Rentrée → Toussaint"
 
-    === "Cours"
-        pour connaître l'essentiel de chaque thème, à étudier en autonomie;
+        - TP 0 
+        - Activité «Système binaire» (T1)
+        - Introduction à Python
+        - Python: les variables et les fonctions
+        - Exposé sur le Big Data (T1)
 
-    === "Projets"
-        pour faire la synthèse des notions vues dans l'année.
+    === "Période 2 - Toussaint → Noël"
+        - Activité «Chasse au trésor» (T4-T6-Python)
+        - Activité «Pokedex» (T1)
+        - Python: la boucle `for` et l'instruction conditionnelle `if`
+        - Activité «Formats de données» (T1-Python)
+        - Activité «Tremblements de terre» (T1-T6-Python)
 
+    === "Période 3 - Noël → Hiver"
+        - Activité «Image numérique» (T1-T2-Python)
+        - Activité «Confused Travolta» (T1-T2-Python)
+        - Exposé sur Internet (T3)
+        - Activité «Simulation d'un réseau» (T3)
+    
+    === "Période 4 - Hiver → Pâques"
+        - Web escape game (T4)
+        - Activité «HTML» (T4)
+        - Exposé sur les personnalités de l'informatique (T4)
+        - Activité «Réseaux sociaux et graphes» (T5)
 
-<br>
-
+    === "Période 5 - après Pâques"
+        - Exposé sur les réseaux sociaux (T5)
+        - Activité «Programmer une carte micro:bit» (T7)
 <br>
 
 ??? abstract "Sources"
