@@ -1,21 +1,23 @@
 # Chasse au trésor
 
-## Créer une carte avec le module folium de Python
+## 1 - Créer une carte avec le module folium de Python
 
 Le module `folium` de Python permet de créer une carte au format `html` grace à [OpenStreetMap](https://www.openstreetmap.fr/){:target="_blank"} et le module `webbrowser` permet de l'afficher dans un navigateur.
 
-Voici un modèle de programme à copier-coller dans votre IDE, qui va créer une carte représentant l'adresse d'une personne vivant en France (choisie au hasard) et la zone de 1 km à l'intérieur de laquelle elle était autorisée à se déplacer pendant le premier confinement:
+Voici un modèle de programme à copier-coller dans l'IDE Thonny, qui va créer une carte représentant l'adresse d'une personne vivant en France (choisie au hasard) et la zone de 1 km à l'intérieur de laquelle elle était autorisée à se déplacer pendant le premier confinement de 2020:
 
 ```python linenums='1'
 import folium
 import webbrowser
 
-lieu = [48.8704, 2.31673]
+lieu1 = [48.856389, 2.352222]
+lieu2 = [48.870144, 2.316486]
 
-c = folium.Map(location=lieu, zoom_start=15)
+c = folium.Map(location=lieu1, zoom_start=14)
 
-folium.Marker(location=lieu, popup="Qui habite ici?").add_to(c)
-folium.Circle(location=lieu, radius=1000, fill="True").add_to(c)
+folium.Marker(location=lieu1, popup="Hôtel de Ville").add_to(c)
+folium.Marker(location=lieu2, popup="Qui habite ici?").add_to(c)
+folium.Circle(location=lieu2, radius=1000, fill="True").add_to(c)
 
 c.save('maCarte.html')
 webbrowser.open('maCarte.html')
@@ -25,21 +27,21 @@ webbrowser.open('maCarte.html')
     === "Lignes 1 et 2"
         Ces instructions servent à aller chercher les bons outils pour créer et afficherr une carte, c'est-à-dire les modules `folium` et `webbrowser`.
     
-    === "Ligne 4"
-        On crée une variable `lieu` qui va contenir les coordonnées GPS d'un endroit qu'on va utiliser par la suite. Il faut respecter la syntaxe : entre crochets, coordonnées séparées par une virgule.
+    === "Lignes 4 et 5"
+        On crée deux variables `lieu1` et `lieu2` qui vont contenir les coordonnées GPS d'endroits qu'on va utiliser par la suite. Il faut respecter la syntaxe : entre crochets, coordonnées séparées par une virgule.
     
-    === "Ligne 6"
-        On crée un carte stockée dans une variable `c` à l'aide de la fonction `folium.Map`. Ses paramètres sont:
+    === "Ligne 7"
+        On crée une carte stockée dans une variable `c` à l'aide de la fonction `folium.Map`. Ses paramètres sont:
 
         - `location` : l'endroit où l'on souhaite centrer la carte;
         - `zoom_start`: le niveau de zoom souhaité (par exemple, Monde : 2, France : 7, Angoulême: 14)
 
-    
-    === "Lignes 8 et 9"
-        - **ligne 8**: on ajoute un marqueur sur la carte au lieu souhaité, avec un texte `popup` qui s'affiche en cliquant sur le marqueur;
-        - **ligne 9**: on ajoute un cercle centré au lieu souhaité, en précisant le rayon (`radius`)
+    === "Lignes 8, 9 et 10"
+        - **ligne 8**: on ajoute un **marqueur** sur la carte au lieu souhaité contenu dans la variable `lieu1`, avec un texte `popup` qui s'affiche en **cliquant** sur le marqueur;
+        - **ligne 9**: on ajoute un **marqueur** sur la carte au lieu souhaité contenu dans la variable `lieu2`, avec un texte `popup` qui s'affiche en **cliquant** sur le marqueur;
+        - **ligne 10**: on ajoute un **cercle** centré au lieu souhaité  contenu dans la variable `lieu2`, en précisant le rayon (`radius`)
 
-    === "Lignes 11 et 12"
+    === "Lignes 13 et 14"
         On enregistre la carte `c` dans un fichier `html` qu'on affiche ensuite dans le navigateur par défaut.
 
 
@@ -72,19 +74,18 @@ webbrowser.open('maCarte.html')
 
         ```
         
-## Carte personnelle
+## 2 - Carte personnelle
 
 !!! example "À vous de jouer!"
     Créez votre propre carte, en indiquant par des marqueurs:
 
     1. votre adresse personnelle;
     2. le lycée;
-    3. votre restaurant préféré;
-    4. un autre lieu au choix (lieu d'activité extra-scolaire par exemple);
-    4. un cercle englobant tous ces lieux.
+    4. au moins deux autres lieux au choix (votre restaurant préféré, un lieu d'activité extra-scolaire par exemple);
 
+    **Conseil:** stockez les coordonnées de ces lieux dans des variables portant des noms pertinents (`maison`, `lycee`, etc.).
 
-## Énigme
+## 3 - Énigme
 
 Un trésor a été caché quelque-part dans le nord de la Nouvelle-Aquitaine. Il émet un signal se propageant à la vitesse du son (340 m/s) et détectable à plus de 400 km...
 

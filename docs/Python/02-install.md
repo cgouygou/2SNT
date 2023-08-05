@@ -4,7 +4,12 @@ Pour pouvoir utiliser un langage de programmation, on a besoin d'un [IDE](https:
 
 ## En ligne
 
-Rendez-vous sur la page [https://console.basthon.fr/](https://console.basthon.fr/)
+Sur l'ENT, lancer l'application **Capytale**.
+
+![](capytale.png){: .center} 
+
+Puis créer une activité de type «Script-Console» 
+![](activite_capytale.png){: .center } 
 
 ![](basthon.png)
 

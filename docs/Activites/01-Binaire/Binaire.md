@@ -36,6 +36,15 @@ Par exemple, voici comme on pourrait payer 100 £eibits:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRdp_vaNRoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+!!! info "À savoir !"
+    <p align="center">
+        <strong> 1 bit = 1 chiffre binaire 0 ou 1 </strong>
+        <br>
+        <strong> 1 octet = 8 bits </strong>
+        <br>
+        <br>
+        <strong> Sur 1 octet on peut écrire tous les entiers de 0 à 255 </strong>
+    </p>
 ## 3- Le parachute de Persévérance
 
 Lors de sa descente vers la planète Mars le 18/02/2021 (voir la section [**Liens**](#liens)), le rover Perseverance de la Nasa a freiné sa chute grâce à un parachute qui a intrigué quelques internautes du forum Reddit.
