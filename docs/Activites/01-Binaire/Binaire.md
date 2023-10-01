@@ -116,7 +116,7 @@ Ces internautes ont rapidement pensé que l'alternance du blanc et du rouge, sur
 
 !!! note "Conversions"
     === "Binaire → Décimal"
-        Il est utile de connaître alors les puissances de 2 pour convertir rapidement de l'écriture binaire vers l'écriture décimale.
+        Il est utile de connaître les puissances de 2 pour convertir rapidement de l'écriture binaire vers l'écriture décimale.
 
         ![](../../images/puissances2bis.png){: .center width=50%} 
 
@@ -125,7 +125,7 @@ Ces internautes ont rapidement pensé que l'alternance du blanc et du rouge, sur
     === "Décimal → Binaire"
         - On peut utiliser l'algorithme de soustraction: on soustrait du nombre la plus grande puissance de 2 possible, et on recommence...
 
-            Par exemple: $105 = 64 + 41 = 64 + 32 + 9 = 64 + 32 + 8 + 1$, donc $105 = 1101001_2$
+            Par exemple: $181 = 128 + 53 = 128+32+21=128+32+16+5=128+32+16+4+1$, donc $181 = 10110101_2$
 
         - On utilise l'algorithme de divisions: on effectue les divisions successives du nombre par 2. L'écriture en binaire est donnée par les restes lus de bas en haut.
 
@@ -151,7 +151,7 @@ Ces internautes ont rapidement pensé que l'alternance du blanc et du rouge, sur
 
 ### Du décimal vers le binaire
 
-Pour obtenir l’écriture binaire d’un nombre entier écrit en décimal, par exemple 2022, il suffit de taper dans un terminal:
+Pour obtenir l’écriture binaire d’un nombre entier écrit en décimal, par exemple 2023, il suffit de taper dans un terminal:
 
 ```python
 bin(2023)
@@ -162,7 +162,7 @@ Faites-le ci-dessous:
 {{ terminal() }}
 
 ??? note "Remarque"
-    Attention, ce qui est renvoyé par cette fonction est une chaîne de caractères (entre simples guillemets). L’écriture en binaire de 2022 est donc 11111100111. Le `0b` indique que c’est... du binaire.
+    Attention, ce qui est renvoyé par cette fonction est une chaîne de caractères (entre simples guillemets). L’écriture en binaire de 2023 est donc 11111100111. Le `0b` indique que c’est... du binaire.
 
 ### Du binaire vers le décimal
 
