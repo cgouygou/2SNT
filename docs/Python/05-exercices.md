@@ -159,7 +159,7 @@ Que vous soyez au lycée ou chez vous, que vous utilisiez Thonny, Capytale, ou u
         Lundi, c'est ravioli
         Mais on n'est pas lundi...
         ```
-
+        
     === "Énoncé 2" 
         Écrire un script qui donne l'affichage suivant:
 
@@ -188,7 +188,7 @@ Que vous soyez au lycée ou chez vous, que vous utilisiez Thonny, Capytale, ou u
         ```
         
     === "Correction" 
-        {{ correction(True, 
+        {{ correction(False, 
         "
         ```python linenums='1'
         for _ in range(13):
@@ -203,6 +203,8 @@ Que vous soyez au lycée ou chez vous, que vous utilisiez Thonny, Capytale, ou u
 
         "
         ) }}
+
+    {{ IDEv() }}
 
 !!! info "Dessiner avec Python"
     Pour dessiner avec Python, on utilise le module `turtle` de Python. Dans ce module on a besoin des fonctions `forward` qui permet d'«avancer» du nombre de pas donné en paramètre et de la fonction `left` qui permet de tourner à gauche d'un angle donné en paramètre (la fonction `right` existe également bien entendu).
