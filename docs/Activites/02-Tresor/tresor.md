@@ -6,6 +6,8 @@ Le module `folium` de Python permet de créer une carte au format `html` grace �
 
 Voici un modèle de programme à copier-coller dans l'IDE Thonny, qui va créer une carte représentant l'adresse d'une personne vivant en France (choisie au hasard) et la zone de 1 km à l'intérieur de laquelle elle était autorisée à se déplacer pendant le premier confinement de 2020:
 
+**⚠️ : si cela ne fonctionne pas, travaillez dans Capytale (application de l'ENT) en suivant [ce lien](https://capytale2.ac-paris.fr/web/c/8f91-2318806){:target="_blank"}.**
+
 ```python linenums='1'
 import folium
 import webbrowser
