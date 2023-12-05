@@ -5,7 +5,7 @@ L’objectif de cette activité est de réaliser une carte du monde répertorian
 On utilisera les données ouvertes (déjà utilisées à l'activité [Formats ouverts](https://cgouygou.github.io/2SNT/Activites/02-Formats_ouverts/Formats_ouverts/){:target="_blank"}   disponibles à l’adresse : [https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php](https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php){target="blank"}
 
 !!! info "Consignes"
-    1. Copier-coller le code ci-dessous dans un nouveau document EduPython, et l'enregistrer tout de suite sous le nom `seismes.py`.
+    1. Copier-coller le code ci-dessous dans un nouveau document Thonny, et l'enregistrer tout de suite sous le nom `seismes.py`.
 
     2. À l'adresse ci-dessus, sur la partie droite de la page, **choisir** les données qui vous intéressent (magnitude, période) et **copier le lien** (clic-droit sur le lien). Le coller ligne 11, **entre guillemets**, pour l'affecter à la variable `url`.
 
