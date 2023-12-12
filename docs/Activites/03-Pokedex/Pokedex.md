@@ -51,19 +51,6 @@ Le fichier contient beaucoup d'enregistrements (environ 800). Pour obtenir les r
         5. :sunglasses: Créer un pokemon possédant deux types (parmi ceux existants), deux talents (parmi ceux existants) et des valeurs de PV, Attaque, etc, de sorte qu'il soit unique.
 
     === "Correction" 
-        1. On crée un **tri** sur la colonne *Attaque* par ordre décroissant: 
-            ![](correction1.png){: .center} 
-
-        2. On crée un **filtre** sur la *vitesse* : Il y a 31 résultats.
-        3. On crée un **filtre** *Type / contient / psy*: il y a 78 résultats. En triant par ordre décroissant sur *PV*, on obtient le pokemon Qulbutoké.
-
-        4. ![](correction4.png){: .center} 
-
-        5. On crée un filtre avec plusieurs critères (avec l'opérateur **ET**):
-            ![](correction5.png){: .center} 
-
-            Le seul résultat est Trioxhydre.
         
-        6. **Bonus**
 
         
