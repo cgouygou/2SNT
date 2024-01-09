@@ -7,6 +7,9 @@
 
 ![](images/logo_SNT.png){: .center width=480}
 
+## BD "Les décodeuses du numérique"
+
+[En téléchargement PDF ici.](https://cgouygou.github.io/1NSI/data/les_decodeuses_du_numerique_web.pdf){:target="_blank"} 
 
 ## Programme
 
