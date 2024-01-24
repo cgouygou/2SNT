@@ -2,7 +2,7 @@
 
 ## 1. Création d'une image
 
-Dans EduPython, copier-coller le code suivant et l'exécuter:
+Dans Thonny, copier-coller le code suivant et l'exécuter:
 
 ```python linenums='1'
 from PIL import Image
@@ -151,7 +151,7 @@ C'est mieux, non?
 Nous allons jouer avec les pixels de l'image ci-dessous.
 
 - Téléchargez l'image (clic-droit puis Enregistrer l'image sous) dans votre dossier personnel.
-- Copiez-collez le code ci-après dans un nouveau document EduPython
+- Copiez-collez le code ci-après dans un nouveau document avec Thonny.
 - Enregistrez ce fichier sous le nom `ara.py`  **dans le même dossier**.
 
 ![](ara.jpg){: width=50% .center}
@@ -241,7 +241,7 @@ Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette 
         === "Égalité?"
             En Python on peut tester si deux valeurs sont égales avec l'opérateur `==`:
 
-            ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
+            ```python linenums='1' title="à copier dans Thonny et à exécuter en changeant les valeurs de a et b"
             a = 2
             b = 3
             if a == b:
@@ -253,7 +253,7 @@ Vous disposez donc d'un code qui vous permet de construire un *effet* sur cette 
         === "Plusieurs comparaisons"
             On peut également tester plusieurs comparaisons en même temps avec l'opérateur `and`:
 
-            ```python linenums='1' title="à copier dans EduPython et à exécuter en changeant les valeurs de a et b"
+            ```python linenums='1' title="à copier dans Thonny et à exécuter en changeant les valeurs de a et b"
             a = 2
             b = 3
             c = 12
