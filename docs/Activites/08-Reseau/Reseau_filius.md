@@ -145,3 +145,5 @@ Pour que les machines de deux réseaux différents puissent être connectées, o
 5. De retour sur la machine ```192.168.0.1```, spécifier maintenant l'adresse du serveur DNS.
 6. Depuis le navigateur web de la machine ```192.168.0.1```, le site ```http://www.vivelansi.fr``` doit maintenant être accessible.  
 
+!!! warning "Sauvegarde"
+    Enregistrez le document dans votre dossier SNT (par exemple sous le nom `simulation_reseau.fls`), nous en aurons besoin dans la prochaine activité.

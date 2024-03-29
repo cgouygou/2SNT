@@ -1,10 +1,22 @@
 # Écrire une page Web avec HTML/CSS
 
-
-![](../../images/htmlcssjs_meme.jpg){: .center} 
-
+![](../../images/htmlcssjs_meme.jpg){: .center width=480} 
 
 
+## 1. Retour sur le réseau
+
+1. Ouvrir le logiciel Filius (Ce PC > Espace Commun > logiciels > Informatique > Filius (raccourci)), puis ouvrir le fichier `simulation_reseau.fls` de l'activité précédente.
+2. Sur la machine `192.168.0.1`, en mode simulation, ouvrir le navigateur web et afficher la page `http://www.vivelansi.fr`.
+
+    !!! info "Lire la page"
+        Sur cette page on nous explique qu'on peut la modifier et qu'elle est diponible sur le serveur web, dans le dossier `webserver`. Allons la consulter...
+
+3. Sur le serveur web, installer l'explorateur de fichiers ainsi que l'éditeur de texte.
+4. Ouvrir l'explorateur de fichiers: vous devez visualiser deux fichiers dans le dossier `webserver`: `index.html` et `splashscreen_mini.png`.
+5. Ouvrir maintenant l'éditeur de textes (repasser par l'écran d'accueil) puis ouvrir le fichier `index.html` (bouton **Ouvrir** puis double-clic sur le fichier). 
+6. Disposer les deux fenêtres (de la machine  `192.168.0.1` et du serveur web) côte à côte:
+
+    ![](filius_html.png)
 Avant de commencer, [un petit web/escape game](http://lyceevalois.com/snt/IntroWeb/index.html){:target="_blank"} ...
 
 
