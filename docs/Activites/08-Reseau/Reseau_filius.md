@@ -6,7 +6,7 @@
     - Une **interface** est le point de raccordement entre un lien et un nœud: elle peut être matérielle (carte réseau) ou logicielle.
     - Un **protocole** est un ensemble de règles permettant d'établir, de mener et de terminer une communication entre deux équipements du réseau.
 
-Dans cette activité, nous allons simuler un réseau local avec le logiciel **Filius**, installé dans l'espace commun, dans le dossier /logiciels/Informatique.
+Dans cette activité, nous allons simuler un réseau local avec le logiciel **Filius** (Ce PC > Espace Commun > logiciels > Informatique > Filius (raccourci)).
 
 !!! warning "Sauvegarde"
     Enregistrez tout de suite le document dans votre dossier SNT et pensez à enregistrer régulièrement votre travail.
