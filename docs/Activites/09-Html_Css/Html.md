@@ -26,7 +26,7 @@
 
 6. Repérer les différentes balises de ce fichier html: il y en a 8, donc 2 «auto-fermantes», c'est-à-dire sans balise fermante.
 
-7. Modifier le titre de la fenêtre (balise `#!html <html>`, puis celui de la page (balise `#!html <html>`). Enregistrer les modifications dans l'éditeur de textes, puis actualiser le site (cliquer à nouveau sur **Afficher** dans le navigateur).
+7. Modifier le titre de la fenêtre (balise `#!html <title>`), puis celui de la page (balise `#!html <h2>`). Enregistrer les modifications dans l'éditeur de textes, puis actualiser le site (cliquer à nouveau sur **Afficher** dans le navigateur).
 
 8. Modifier la couleur d'arrière plan en changeant la valeur donnée à l'**attribut** `#!html bgcolor` de la balise `#!html <body>` (consulter [ici](http://www.proftnj.com/RGB3.htm){:target="_blank"} pour trouver le code hexadécimal d'une couleur).
 
