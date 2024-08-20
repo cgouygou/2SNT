@@ -72,8 +72,10 @@ Les séances seront réparties entre:
 - des activités de découverte des notions ou des TP d'initiation à la programmation, en classe;
 - des exposés (notés) pour découvrir une notion par soi-même, pour apprendre à travailler en groupe et partager son travail;
 - des résumés de cours pour connaître l'essentiel de chaque thème, à étudier en autonomie;
-- des tests rapides pour vérifier que le travail a été correctement effectué.
+- des tests rapides pour vérifier que le travail a été correctement effectué;
+- des projets plus conséquents pour consolider les notions étudiées.
 
+<!-- 
 !!! history "Planning prévisionnel"
     === "Période 1 - Rentrée → Toussaint"
 
@@ -105,7 +107,7 @@ Les séances seront réparties entre:
     === "Période 5 - après Pâques"
         - Exposé sur les réseaux sociaux (T5)
         - Activité «Programmer une carte micro:bit» (T7)
-<br>
+<br> -->
 
 ??? abstract "Sources"
     - [https://glassus.github.io/snt](https://glassus.github.io/snt){:target="_blank"} 

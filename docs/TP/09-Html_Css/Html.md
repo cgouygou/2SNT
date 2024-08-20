@@ -164,11 +164,25 @@ Le fichier CSS (souvent nommé `style.css`) doit être référencé au début du
     3. Recharger la page pour visualiser les modifications. Modifier le fichier `css` à votre guise.
     <!-- 4. Écrire un fichier `css` contenant la mise en forme de votre page web. Celle-ci ne doit plus contenir de mise en forme en attributs de balises. -->
 
+## 4 - GOAT
+
+!!! example "À vous de jouer!"
+    La consigne est simple, vous devez composer une page HTML portant sur la personnalité de votre choix. Voici quelques suggestions, mais vous êtes libre d'en choisir une autre, de quelque domaine que ce soit... après avoir obtenu mon approbation bien entendu.
+
+    ![](Megan_Rapinoe.jpg){: .center}  ![](Michael_Jordan.jpg){: .center}  ![](Mme_Larose.jpeg){: .center}  ![](Estelle_Nze_Minko.jpeg){: .center}  ![](Nikola_Karabatic.jpeg){: .center}  ![](Tony_Estanguet.jpeg){: .center} 
 
 
-## 4 - Compléments: d'autres éléments HTML
+    **Crédits Photos:**
 
-### 4-1. Listes
+    - Nikola Karabatic : dohastadiumplusqatar
+    - Mme Larose: Katia Ravon
+
+![](HTML5_CSS3_logo.svg){width=100} ![](HTML5_CSS3_logo.svg){width=100}
+ 
+
+## 5 - Compléments: d'autres éléments HTML
+
+### 5-1. Listes
 
 Les balises `#!html <ol> </ol>` (ordered list) et `#!html <ul> </ul>` (unordered list) permettent de créer des listes numérotées ou non numérotées (listes à puces).
 Chaque élément de la liste doit être placé dans une balise `#!html <li> </li>` (list item).
@@ -196,7 +210,7 @@ Langages étudiés en SNT:
 
 ```
 
-### 4-2. Tableaux
+### 5-2. Tableaux
 
 En HTML, un tableau se crée avec la balise `#!html <table> </table>`, contient des rangées encadrées par la balise `#!html <tr> </tr>` (pour *table row*) qui elle-mêmes contiennent des cellules encadrées par la balise `#!html <td> </td>` (pour *table data*).
 
@@ -230,7 +244,7 @@ En HTML, un tableau se crée avec la balise `#!html <table> </table>`, contient 
 
 Le rendu n'est pas terrible, il faudra l'améliorer avec de la mise en page CSS . Voir [ici](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Styling_tables){:target="_blank"} par exemple.
 
-### 4-3. Cadres intégrés
+### 5-3. Cadres intégrés
 
 Enfin, la balise `#!html <iframe> </iframe>` permet d'insérer un cadre intégrant un autre contenu HTML, comme une vidéo ou une carte interactive par exemple.
 
