@@ -1,5 +1,8 @@
 # Python, c'est quoi?
 
+> «Everybody should learn to program a computer because it teaches you how to think.» *Steve Jobs*
+
+
 ![](python420x420.png){: .center width=320}
 
 C'est un langage de programmation inventé en 1991 par Guido Van Rossum.

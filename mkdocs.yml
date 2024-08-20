@@ -11,6 +11,9 @@ theme:
   icon:
     logo: fontawesome/solid/laptop-code
     repo : fontawesome/brands/github
+    admonition:
+      note: fontawesome/solid/pen-to-square
+
   favicon: xtra/favicon.svg
   
   features:
@@ -22,7 +25,6 @@ theme:
     - header.autohide
     - content.code.annotate
     - content.code.copy
-
 
   palette:
     # Light mode
@@ -50,6 +52,7 @@ markdown_extensions:
   - admonition
   - def_list
   - attr_list
+  - md_in_html
   - footnotes
   - pymdownx.caret
   - pymdownx.mark
@@ -84,6 +87,7 @@ plugins:
       collapse_single_pages: true
   - macros
 
+
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -91,7 +95,7 @@ extra:
       name: Écrire à l'auteur
 
     - icon: fontawesome/brands/github
-      link: https://github.com/cgouygou/1NSI
+      link: https://github.com/cgouygou/2SNT
       name: Dépôt git
 
     - icon: fontawesome/solid/school
@@ -99,11 +103,11 @@ extra:
       name: Lycée Marguerite de Valois - Angoulême (16)
 
 extra_javascript:
-  - scripts/mathjax.js
-  - xtra/javascripts/interpreter.js
+  - javascripts/mathjax.js
+  # - xtra/javascripts/interpreter.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
 
 extra_css:
   - stylesheets/extra.css
