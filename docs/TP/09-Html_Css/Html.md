@@ -169,15 +169,15 @@ Le fichier CSS (souvent nommé `style.css`) doit être référencé au début du
 !!! example "À vous de jouer!"
     La consigne est simple, vous devez composer une page HTML portant sur la personnalité de votre choix. Voici quelques suggestions, mais vous êtes libre d'en choisir une autre, de quelque domaine que ce soit... après avoir obtenu mon approbation bien entendu.
 
-    ![](Megan_Rapinoe.jpg){: .center}  ![](Michael_Jordan.jpg){: .center}  ![](Mme_Larose.jpeg){: .center}  ![](Estelle_Nze_Minko.jpeg){: .center}  ![](Nikola_Karabatic.jpeg){: .center}  ![](Tony_Estanguet.jpeg){: .center} 
+    ![](Megan_Rapinoe.jpg){: .center}  ![](Michael_Jordan.jpg){: .center}  ![](Lionel_Messi.jpeg){: .center}  ![](Estelle_Nze_Minko.jpeg){: .center}  ![](Nikola_Karabatic.jpeg){: .center}  ![](Tony_Estanguet.jpeg){: .center} 
 
 
     **Crédits Photos:**
 
     - Nikola Karabatic : dohastadiumplusqatar
-    - Mme Larose: Katia Ravon
+    - Lionel Messi : Tasnim News Agency
 
-![](HTML5_CSS3_logo.svg){width=100} ![](HTML5_CSS3_logo.svg){width=100}
+
  
 
 ## 5 - Compléments: d'autres éléments HTML
