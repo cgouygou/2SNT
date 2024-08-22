@@ -157,6 +157,28 @@ Le fichier CSS (souvent nommé `style.css`) doit être référencé au début du
 
     ```
 
+!!! info "Classes"
+    Dans l'exemple de code `css` précédent, tous les liens (balise `#!html <a>` seront formatés de la même façon :gras et rouge).
+
+    Si on souhaite appliquer une autre style à une balise, on le peut lui attribuer à l'aide  de l'attribut `class`.
+
+    Il suffit de définir un nom de style dans le css **en le préfixant d'un point**:
+
+    ```css
+    .lienparticulier
+    {
+        font-style : bold;              /* texte en gras */
+        color : #00FF00;                /* couleur du texte (vert) */
+        text-decoration: underline;     /* texte souligné */
+    }
+    ```
+
+    Puis d'appliquer ce style de classe à un lien 
+
+    ```html
+    <a class="lienparticulier" href="https://www.greenpeace.fr"> Un lien écolo </a>
+    ```
+
 
 !!! example "À vous de jouer!"
     1. Copier-coller le code suivant dans un nouveau fichier Notepad++ à enregistrer sous le nom `style.css` **dans le même dossier** que votre page web.
