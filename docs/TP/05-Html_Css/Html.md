@@ -11,7 +11,7 @@
     !!! info "Lire la page"
         Sur cette page on nous explique qu'on peut la modifier et qu'elle est disponible sur le serveur web, dans le dossier `webserver`. Allons la consulter...
 
-        ![](../08-Reseau/filius_web.png){: .center width=480} 
+        ![](../04-Reseau/filius_web.png){: .center width=480} 
 
 3. **Sur le serveur web**, en mode simulation, installer l'explorateur de fichiers ainsi que l'éditeur de texte.
 4. Ouvrir l'explorateur de fichiers: vous devez visualiser deux fichiers dans le dossier `webserver`: `index.html` et `splashscreen_mini.png`.

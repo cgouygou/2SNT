@@ -9,7 +9,7 @@ Pour se former à l'OSINT : [The OSINT Project](https://the-osint-project.fr/){:
         Où la photo suivante a-t-elle été prise?
 
 
-        ![](../../TP/06-Image_numerique/liberty.jpg){: .center} 
+        ![](../../TP/02-Image_numerique/liberty.jpg){: .center} 
 
     === "Correction" 
         {{ correction(False, 

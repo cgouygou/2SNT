@@ -14,18 +14,18 @@ Nous essaierons d'utiliser d'autres outils, libres et collaboratifs, comme [Open
 
         La carte est ensuite centrée au point recherché, les coordonnées GPS s'affichent dans le bandeau de gauche. Ici : 46.65437 , 0.17811
 
-        ![](osm2.png){: .center} 
+        ![](osm2.png){: .center width=640} 
 
-        Pour récupérer les coordonnées GPS d'un point sur la carte, il suffit de faire un clic droit à l'endroit voulu, puis de cliquer dans le menu sur "Afficher l'adresse".
+        **Pour récupérer les coordonnées GPS d'un point sur la carte**, il suffit de faire un clic droit à l'endroit voulu, puis de cliquer dans le menu sur "Afficher l'adresse".
     
     === "géoportail"
         Dans la barre de recherche, vous pouvez entrer une adresse textuelle (par ex. 12 rue Louise Lériget, 16000 Angoulême) ou des coordonnées GPS (au format décimal en général).
 
         La carte est ensuite centrée au point recherché, les coordonnées GPS s'affichent dans le bandeau de gauche. Ici : 46.653206 , 0.179424
 
-        ![](gp2.png){: .center} 
+        ![](gp2.png){: .center width=640} 
 
-        Pour récupérer les coordonnées GPS d'un point sur la carte, il suffit de faire un clic droit à l'endroit voulu, puis de cliquer dans le menu sur "Adresse/coordonnées du lieu".
+        **Pour récupérer les coordonnées GPS d'un point sur la carte**, il suffit de faire un clic droit à l'endroit voulu, puis de cliquer dans le menu sur "Adresse/coordonnées du lieu".
 
     === "Google Maps"
         Débrouillez-vous.
@@ -68,9 +68,9 @@ Par exemple, les coordonnées des villes sur wikipedia sont données au format D
         Convertissez la longitude d'Angoulême en décimal, puis vérifier en tapant dans la barre d'adresse de votre navigateur une url sur le modèle de celle de l'exercice précédent : https://www.openstreetmap.org/#map=19/?/?
 
     === "Solution"
-        La longitude d'Angoulême est 0,160833.
+<!-- La longitude d'Angoulême est 0,160833.
 
-        On vérifie à l'adresse [https://www.openstreetmap.org/#map=19/45.648889/0.160833](https://www.openstreetmap.org/#map=19/45.648889/0.160833){:target="_blank"} 
+        On vérifie à l'adresse [https://www.openstreetmap.org/#map=19/45.648889/0.160833](https://www.openstreetmap.org/#map=19/45.648889/0.160833){:target="_blank"}  -->
 
 
 Il existe également des sites en ligne qui proposent de convertir automatiquement, comme [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  par exemple.

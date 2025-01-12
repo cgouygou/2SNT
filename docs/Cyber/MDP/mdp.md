@@ -23,7 +23,7 @@
 
 !!! example "{{ exercice() }} :spy: **OSINT** :spy: "
     === "Énoncé" 
-        Connectez-vous sur [cette page](){:target="_blank"}, sachant que le mot de passe est un des 10 mots de passe les plus courants selon le projet Richelieu.
+        Connectez-vous sur [cette page](http://lyceevalois.com/snt/test_mdp.html){:target="_blank"}, sachant que le mot de passe est un des 10 mots de passe les plus courants selon le projet Richelieu.
     === "Correction" 
         {{ correction(False, 
         "
