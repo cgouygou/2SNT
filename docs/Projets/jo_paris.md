@@ -18,7 +18,7 @@
 
 
 !!! info "T.P. préparatoires"
-    - Carte interactive
     - Architecture d'un réseau
     - Écrire une page Web avec HTML/CSS
+    - Carte interactive
 

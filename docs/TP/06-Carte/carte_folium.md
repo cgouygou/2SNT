@@ -85,6 +85,8 @@ webbrowser.open('ma_carte.html')
     2. le lycée;
     4. au moins deux autres lieux au choix (votre restaurant préféré, un lieu d'activité extra-scolaire par exemple);
 
+    **La carte devra être centrée sur la mairie d'Angoulême.**
+    
     Essayez de varier les couleurs, les icones, et n'oubliez pas de changer les pop-ups.
 
     **Conseil:** stockez les coordonnées de ces lieux dans des variables portant des noms pertinents (`maison`, `lycee`, etc.).
@@ -117,7 +119,7 @@ Voici un tableau des différents temps de propagation du signal enregistrés :
         Il n'est peut-être pas nécessaire d'utiliser **toutes** les villes...
 
 
-## 4 - Insertion d'une carte dans un fichier HTML
+## 4 - Insertion d'une carte dans un fichier HTML (→ Projet Paris 2024)
 
 Une fois la carte souhaitée réalisée, et sauvegardée par exemple dans le ficher `ma_carte.html`, on peut l'insérer dans un fichier HTML par l'instruction suivante:
 

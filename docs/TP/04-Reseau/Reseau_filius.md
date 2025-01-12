@@ -171,4 +171,4 @@ Pour que les machines de deux réseaux différents puissent être connectées, o
 6. Depuis le navigateur web de la machine ```192.168.0.1```, le site ```http://www.vivelansi.fr``` doit maintenant être accessible.  
 
 !!! warning "Sauvegarde"
-    Enregistrez le document dans votre dossier SNT (par exemple sous le nom `simulation_reseau.fls`), nous en aurons besoin dans la prochaine activité.
+    Enregistrez le document dans votre dossier SNT (par exemple sous le nom `simulation_reseau.fls`), nous en aurons besoin dans le TP [Écrire une page Web avec HTML/CSS](https://cgouygou.github.io/2SNT/TP/09-Html_Css/Html/){:target="_blank"}.

@@ -181,7 +181,7 @@ Le fichier CSS (souvent nommé `style.css`) doit être référencé au début du
 
 
 !!! example "À vous de jouer!"
-    1. Copier-coller le code suivant dans un nouveau fichier Notepad++ à enregistrer sous le nom `style.css` **dans le même dossier** que votre page web.
+    1. Copier-coller le code de l'exemple précédent dans un nouveau fichier Notepad++ à enregistrer sous le nom `style.css` **dans le même dossier** que votre page web.
     2. Référencer ce fichier dans la balise `#!html <head>`.
     3. Recharger la page pour visualiser les modifications. Modifier le fichier `css` à votre guise.
     <!-- 4. Écrire un fichier `css` contenant la mise en forme de votre page web. Celle-ci ne doit plus contenir de mise en forme en attributs de balises. -->
