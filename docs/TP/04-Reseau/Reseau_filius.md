@@ -167,8 +167,11 @@ Pour que les machines de deux réseaux différents puissent être connectées, o
 2. Sur la machine ```192.168.0.1```, installer un Navigateur Web. En tapant dans la barre d'adresse l'adresse IP du Serveur web, la page d'accueil de Filius doit s'afficher. Sinon, vérifier les configurations (adresses IP, de passerelle).  
 3. Rajouter un serveur DNS connecté au SwitchA, qui n'aura dans son annuaire d'un seul site. Il faut pour cela raccorder une nouvelle machine (mais une machine déjà sur le réseau aurait très bien pu jouer ce rôle), et installer dessus un serveur DNS (ne pas oublier de le démarrer).
 4. Sur ce serveur DNS, associer le nom de domaine ```www.vivelansi.fr```  à l'adresse IP ```192.168.1.30```.
-5. De retour sur la machine ```192.168.0.1```, spécifier maintenant l'adresse du serveur DNS.
-6. Depuis le navigateur web de la machine ```192.168.0.1```, le site ```http://www.vivelansi.fr``` doit maintenant être accessible.  
+5. De retour sur la machine ```192.168.0.1```, spécifier maintenant l'adresse du serveur DNS:
+
+    ![](Filius_serveur_DNS.png){: .center}
+
+7. Depuis le navigateur web de la machine ```192.168.0.1```, le site ```http://www.vivelansi.fr``` doit maintenant être accessible.  
 
 !!! warning "Sauvegarde"
     Enregistrez le document dans votre dossier SNT (par exemple sous le nom `simulation_reseau.fls`), nous en aurons besoin dans le TP [Écrire une page Web avec HTML/CSS](https://cgouygou.github.io/2SNT/TP/09-Html_Css/Html/){:target="_blank"}.
