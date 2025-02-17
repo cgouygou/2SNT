@@ -49,14 +49,15 @@
 
 ## 2 - Deuxième exemple et mise en page
 
-Désormais, sur un ordinateur du lycée, nous utiliserons Notepad++ comme éditeur de texte. Il se situe au même endroit que Filius sur le réseau du lycée.
+Désormais, sur un ordinateur du lycée, nous utiliserons Notepad++ comme éditeur de texte. Il se situe sur le réseau du lycée : pour l'ouvrir, exécuter le fichier `notepad++.exe` situé dans le répertoire `commun/logiciels/Notepad++` sur le réseau du lycée.
+
 Pour chaque page web que nous allons créer (c'est-à-dire un fichier au format `html`), il faut l'ouvrir deux fois dans deux fenêtres séparées:
 
 - **dans l'éditeur de texte Notepad++** : pour écrire et modifier le code source. Penser à enregistrer (`Ctrl+S`) à chaque modification;
 - **dans le navigateur web Firefox**: pour visualiser les modifications. Penser à actualiser (`F5`) à chaque fois.
 
 !!! note "Exemple complet minimal"
-    Ouvrir l'éditeur de texte `Notepad++` (dans `commun/logiciels/`) et y coller le code suivant. Enregistrer le document sous le nom `exemple_minimal.html` par exemple, dans un dossier `HTML` de votre dossier `SNT`. Puis l'ouvrir avec un navigateur (Firefox).
+    Ouvrir l'éditeur de texte `Notepad++` et y coller le code suivant. Enregistrer le document sous le nom `exemple_minimal.html` par exemple, dans un dossier `HTML` de votre dossier `SNT`. Puis l'ouvrir avec un navigateur (Firefox).
 
     ```html 
     <!DOCTYPE html> 
