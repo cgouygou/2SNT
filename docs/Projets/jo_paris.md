@@ -18,7 +18,7 @@
 
 
 !!! info "T.P. préparatoires"
-    - Architecture d'un réseau
-    - Écrire une page Web avec HTML/CSS
-    - Carte interactive
+    - [Architecture d'un réseau](https://cgouygou.github.io/2SNT/TP/04-Reseau/Reseau_filius/){:target="_blank"}
+    - [Écrire une page Web avec HTML/CSS](https://cgouygou.github.io/2SNT/TP/05-Html_Css/Html/){:target="_blank"}
+    - [Carte interactive](https://cgouygou.github.io/2SNT/TP/06-Carte/carte_folium/){:target="_blank"}
 
