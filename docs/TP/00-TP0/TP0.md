@@ -13,7 +13,7 @@
 
     1. Ouvrir l'explorateur/gestionnaire de fichiers:
     
-        - Cliquer sur le bouton "Affichage" de la barre d'outils en haut, puis sur "Afficher" en bas du menu et enfin cohcher la case "Extensions de noms de fichier":
+        - Cliquer sur le bouton "Affichage" de la barre d'outils en haut, puis sur "Afficher" en bas du menu et enfin cocher la case "Extensions de noms de fichier":
         - Aller dans le lecteur `\perso`, puis le dossier `prive`. C'est le dossier dans lequel seul vous avez accès, et dans lequel nous vous conseillons d'enregistrer vos documents numériques. Ailleurs que dans `\perso`, ils risquent d'être perdus.
         - Créer un nouveau dossier nommé `SNT`. **Ne pas fermer l'explorateur de fichiers**.
 

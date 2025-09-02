@@ -5,7 +5,7 @@
 
 
 
-![](images/logo_SNT.png){: .center width=480}
+![](images/logo_SNT.png){: .center width=320}
 
 ## BD "Les décodeuses du numérique"
 
