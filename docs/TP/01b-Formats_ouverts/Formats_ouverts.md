@@ -12,17 +12,19 @@
 
     2. Ouvrir LibreOffice Writer et y taper le texte «Marguerite de Valois». Enregistrer le fichier sous le nom «test.odt» dans votre dossier `SNT`.
 
-    3. Ouvrir dans votre dossier `SNT` et noter les tailles en octets de ces deux fichiers. Que constate-t-on? Comment l'expliquer?
+    3. Ouvrir votre dossier `SNT` et noter les tailles en octets de ces deux fichiers (chercher les propriétés des fichiers en faisant un clic droit dessus). Que constate-t-on? Comment l'expliquer?
+
+    4. Chercher ce qu'est le **format** d'un fichier.
 
 
 !!! info "Ouvert ou fermé?"
     On appelle format « ouvert » un format dont les spécifications techniques ne sont pas encombrées d’entraves techniques ou légales à son exploitation dans quel que logiciel que ce soit. Ces spécifications techniques sont la « recette » permettant au programmeur d’écrire des programmes capables d’encoder ou décoder des données dans ce format.
 
-    *Source:* [http://libre.guillaumeponce.org/qu-est-ce-qu-un-format-ouvert](http://libre.guillaumeponce.org/qu-est-ce-qu-un-format-ouvert){:target="_blank"}
+    *Source:* [http://libre.guillaumeponce.org/qu-est-ce-qu-un-format-ouvert](../../data/formats_ouverts_guillaume_ponce.pdf){:target="_blank"}
 
 !!! example "{{ exercice() }}"
 
-    Reproduire et compléter à l'aide de recherches sur le Web le tableau ci-dessous avec les types de fichiers:
+    Reproduire et compléter à l'aide de recherches sur le Web (ou en lisant l'article en lien ci-dessus) le tableau suivant avec les types de fichiers:
 
     ![](type_fichier.jpg){align=right} 
 
