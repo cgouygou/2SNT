@@ -59,7 +59,7 @@
 
         Consultez ensuite l'adresse  [http://api.open-notify.org/astros.json](http://api.open-notify.org/astros.json){:target="_blank"}  dans votre navigateur.
 
-    2. Quel est le format de donnée enregistré dans cette page?
+    2. Quel est le format de donnée enregistré dans cette page? **Conseil:** observez attentivement l'URL...
 
     2. Combien de personnes sont actuellement dans l’ISS? Comment s’appellent-ils?
 
