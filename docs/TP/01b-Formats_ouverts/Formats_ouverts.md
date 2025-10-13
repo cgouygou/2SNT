@@ -55,7 +55,7 @@
 ### 2.2 - Qui est dans l'ISS ?
 
 !!! example "{{ exercice() }}"
-    1. Rechercher ce qu'est un API.
+    1. Rechercher ce qu'est une API.
 
         Consultez ensuite l'adresse  [http://api.open-notify.org/astros.json](http://api.open-notify.org/astros.json){:target="_blank"}  dans votre navigateur.
 
