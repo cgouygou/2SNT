@@ -1,5 +1,9 @@
 # Image numérique
 
+!!! abstract "Consigne"
+    - Compte-rendu à produire et rendre sur Moodle.
+    - Commencez par créer un nouveau dossier appelé «Images» dans votre dossier SNT. Vous y sauvegarderez tous les documents (images, compte-rendu, programmes Python) de ce (très long) T.P.
+
 
 ## 1 - Formats d'image
 
@@ -26,8 +30,7 @@ Une première approche pour comprendre comment sont créées les images sur les 
 
 [![](gimp-logo.bmp){: .center}](new_gimp_logo.PBM)
 
-1. Créer un dossier **Images** dans votre dossier SNT.
-2. Faire un clic gauche sur l'image ci-dessus pour la télécharger dans ce dossier **Images**.
+1. Faire un clic **gauche** sur l'image ci-dessus pour la télécharger dans votre dossier **Images**.
 3. Ouvrir l'image avec le bloc-notes de Windows (ouvrir d'abord le bloc-notes).
 
 
@@ -54,13 +57,13 @@ P1
 
 
 !!! example "À vous de jouer!"
-    Créez un fichier `smiley.pbm` représentant l'image suivante (à vous de juger quand mettre un 0 ou un 1...).
+    Créez un fichier `smiley.pbm` représentant l'image suivante de dimensions 10 x 10 (à vous de juger quand mettre un 0 ou un 1...).
 
     ![](smiley_grille.PNG){: .center width=320} 
 
 ## 3 - Niveaux de gris
 
-Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant aux images en niveau de gris au [format PGM](https://fr.wikipedia.org/wiki/Portable_pixmap#PGM){:target="_blank"} , comme [celle-ci](snt.pgm), à télécharger et ouvrir deux fois: avec le bloc-notes d'une part et avec GIMP d'autre part.
+Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant aux images en niveau de gris au [format PGM](https://fr.wikipedia.org/wiki/Portable_pixmap#PGM){:target="_blank"} , comme [celle-ci](snt.pgm), à télécharger et **ouvrir deux fois**: avec le bloc-notes d'une part et avec GIMP d'autre part.
 
 !!! example "Analyse du code"
     === "Questions"
@@ -78,11 +81,28 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
 !!! example "À vous de jouer!"
     Créez une image au format `pgm` contenant les trois premières lettres de votre prénom, chaque lettre devant être dans un niveau de gris différent (pas nécessairement les mêmes que dans l'exemple, hein).
 
+## 4 - Image en couleur
+
+En couleur (avec le système RGB), chaque pixel est représenté par 3 valeurs (1 octet par valeur): une composante rouge (R), une composante verte (G) et une composante bleue (B).
+
+![](exemple_couleurs.png){: .center} 
+
+Par exemple, l'image ci-dessus de 3 x 2 pixels (et zoomée) se représente ainsi:
+
+![](tab_exemple_couleurs.png){: .center width=320} 
+
+!!! example "À vous de jouer!"
+    - Télécharger l'image ci-dessous dans votre dossier Images:
+
+    ![](exercice_couleurs.png){: .center} 
+
+    - L'ouvrir avec GIMP et sélectionner l'outil «Pipette à couleurs».
+    - Construire un tableau des codes RGB des couleurs qui la constituent.
 
 
-## 4- En couleur avec Python 
+## 5 - En couleur avec Python 
 
-### 4-1. Création d'une image
+### 5-1. Création d'une image
 
 Dans Thonny, copier-coller le code suivant et l'exécuter:
 
@@ -123,7 +143,7 @@ img.save("monimage.png")
     Créer un carré jaune de dimensions 150x150, et l'enregistrer sous le nom `carre_jaune.png` dans votre dossier **Images**.
 
 
-### 4-2. Modification de pixels
+### 5-2. Modification de pixels
 
 La fonction qui permet de modifier un pixel, c'est-à-dire la couleur qu'il contient, est `Image.putpixel`. Pour l'utiliser, il faut une variable image, les coordonnées du pixel qu'on veut modifier, et la nouvelle couleur.
 
@@ -151,7 +171,7 @@ for x in range(300):
     Vous pouvez changer les couleurs, à condition que les deux lignes ne soient pas de la même.
 
 
-### 4-3. Parcours d'image
+### 5-3. Parcours d'image
 
 Pour modifier **tous** les pixels d'une image, il faut donc parcourir toutes les ordonnées y pour toutes les abscisses x. On va donc *imbriquer* deux boucles `for` l'une dans l'autre.
 
@@ -243,7 +263,7 @@ C'est mieux, non?
     1. Modifier le code pour afficher du bleu sur la partie de gauche et du rouge sur la partie droite.
     2. Modifier le code en ajoutant **une autre instruction** `if : ... else: ...` dans le bloc du premier `else:` pour obtenir le drapeau français.
     
-### 4-4. Modifier une image existante
+### 5-4. Modifier une image existante
 
 On a vu qu'on peut modifier un pixel d'une image avec l'instruction `putpixel`. On peut également récupérer la valeur d'un pixel d'une image avec l'instruction `getpixel`. Il faut également pouvoir charger une image, avec cette fois l'instruction `Image.open`, comme dans l'exemple-type ci-dessous.
 
