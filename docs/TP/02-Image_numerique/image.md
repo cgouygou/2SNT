@@ -73,10 +73,7 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
         4. Que pourrait-on faire pour augmenter la qualité de l'image (sans augmenter sa taille)?
     
     === "Réponses"
-        1. C'est P2.
-        2. C'est l'intensité maximale de gris. 
-        3. Avec tous les nombres entiers entre 0 et 15, soit 16 niveaux de gris au total.
-        4. Il suffit d'augmenter les niveaux de gris avec par exemple 255 en ligne 4 et en codant les pixels avec les entiers de 0 à 255.
+
 
 !!! example "À vous de jouer!"
     Créez une image au format `pgm` contenant les trois premières lettres de votre prénom, chaque lettre devant être dans un niveau de gris différent (pas nécessairement les mêmes que dans l'exemple, hein).
