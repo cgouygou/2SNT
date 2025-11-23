@@ -28,7 +28,7 @@ Par exemple, il y a un message caché dans l'image ci-dessous, à vous de le ret
     === "Filtre rouge"
         Pour créer un filtre rouge il suffit de conserver la composante rouge et de remplacer les autres composantes par 0.
 
-        Si vous n'aimez pas le rouge, faites un filtre vert. Ou bleu.
+        Si vous n'aimez pas le rouge, faites un filtre vert. Ou bleu. Ou les trois...
 
         ![](images/img_filtre.png){: .center} 
 
