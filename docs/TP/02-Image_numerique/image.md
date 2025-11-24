@@ -144,7 +144,7 @@ img.save("monimage.png")
 
 La fonction qui permet de modifier un pixel, c'est-à-dire la couleur qu'il contient, est `Image.putpixel`. Pour l'utiliser, il faut une variable image, les coordonnées du pixel qu'on veut modifier, et la nouvelle couleur.
 
-Par exemple, copier-coller l'instruction suivante ligne 5 (enfin surtout entre l'instruction qui crée l'image, et celle qui l'affiche).
+Par exemple, copier-coller l'instruction suivante ligne 5 (enfin surtout entre l'instruction qui crée l'image, et celle qui l'affiche) et exécuter le programme. Chercher la modification...
 
 ```python
 img.putpixel((50, 100), (255, 0, 0))
@@ -153,12 +153,26 @@ img.putpixel((50, 100), (255, 0, 0))
 ??? done "Verdict"
     Cete instruction a changé le pixel de coordonnées `(50, 100)` en rouge (c'est-à-dire `(255, 0, 0)` en RGB).
 
-Pour «dessiner» dans l'image, il s'agit donc de modifier pixel par pixel selon le motif désiré. Pour tracer une ligne, *par exemple une ligne horizontale verte au quart de l'image*, on va modifier tous les pixels d'ordonnée 50 à l'aide d'une boucle `for` en faisant varier l'abscisse sur toutes les valeurs possibles:
+Pour «dessiner» dans l'image, il s'agit donc de modifier pixel par pixel selon le motif désiré. Pour tracer une ligne, *par exemple une ligne horizontale verte au quart de l'image*, il faut modifier tous les pixels d'ordonnée 50 en commençant par le pixel de coordonnées `#!py (0, 50)` puis `#!py (1, 50)`  puis `#!py (2, 50)` etc. jusqu'au pixel de coordonnées `#!py (299, 50)`.
+
+On pourrait donc écrire 300 lignes de code :scream: :
+
+```python linenums='1'
+img.putpixel((0, 50), (0, 255, 0))
+img.putpixel((1, 50), (0, 255, 0))
+img.putpixel((2, 50), (0, 255, 0))
+...
+```
+
+On va plutot faire varier l'abscisse `#!py x` sur toutes les valeurs possibles de `#!py 0` à `#!py 299`  à l'aide d'une boucle `for`:
 
 ```python
 for x in range(300):
     img.putpixel((x, 50), (0, 255, 0))
 ```
+
+Plus efficace, non?
+
 
 !!! example "À vous de jouer!"
     Adapter le code précédent pour ajouter dans votre image une ligne bleue et verticale (à l'abscisse 100 par exemple). Vous devriez obtenir:
@@ -201,7 +215,7 @@ Pour obtenir quelque chose de plus «joli», on va faire varier ces composantes 
         b = 0
 ```
 
-C'est mieux, non?
+C'est mieux, non? On obtient toutes les couleurs possibles avec une composante bleue égale à 0.
 
 
 
@@ -320,7 +334,7 @@ img_modif.save("new_image.jpg")
         On définit les nouvelles composantes du pixel modifié, à partir des composantes récupérées. (Ici, comme vous le remarquez, on ne fait rien pour l'instant).
 
     === "Lignes 20 et 21"
-        On crée le pixel modifié et on le remplace dans l'image modifiée `img_modif`.
+        On crée le pixel modifié `#!py new_pix` contenant les 3 nouvelles composantes et on le remplace dans l'image modifiée `img_modif`.
 
     === "Ligne 24"
         On enregistre l'image modifiée contenue dans la variable `img_modif` **avec un nouveau nom** de fichier, `"new_image.jpg"` par exemple.
