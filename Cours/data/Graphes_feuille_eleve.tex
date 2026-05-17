@@ -1,0 +1,140 @@
+\documentclass[a4paper,11pt]{article}		
+
+%%% Les incontournables %%%
+
+% Sans-serif (dys)
+%\usepackage[scaled]{helvet}
+%\renewcommand\familydefault{\sfdefault} 
+
+% Serif
+\usepackage[upright]{fourier}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb}		 %symboles et écritures mathématiques
+\usepackage[frenchb]{babel}	
+\frenchbsetup{StandardLists=true} 			 %pour éviter les conflits avec enumitem
+\usepackage{enumitem}
+\usepackage{mathrsfs}
+
+%% Dessins, graphiques
+\usepackage[dvips]{graphicx}
+%\usepackage{pstricks,pst-eucl,pstricks-add,pst-math,pst-xkey,pst-text}
+%\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage[left=1cm, right=1cm, top=0.5cm, bottom=1cm,  headheight=1.5cm,includeheadfoot]{geometry}
+\usepackage{color}
+\usepackage[table,x11names]{xcolor}					 %attention au conflit avec ps-tricks
+
+%%% Symbole et polices spéciaux
+\usepackage{bm}
+\usepackage{pifont}
+\usepackage{eurosym}									% pour le symbole euro
+\usepackage{cancel}
+\usepackage{dsfont}										% pour les ensembles de nombres par \N, \Z, \Q, \R, \C
+\usepackage{url}
+%\usepackage{wasysym}									% pour \clock
+
+%%% Tableaux, colonnes
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{slashbox}
+
+%% Mise en page
+\usepackage{titlesec}
+\usepackage{fancyhdr}	
+\usepackage{framed}
+\usepackage{fancybox}
+\usepackage{shortlst}										% pour itemize et enumerate sur une même ligne
+\usepackage{bclogo}											% pour de beaux encadrés
+\usepackage{xspace}
+%\usepackage[xcas]{pro-tablor}								% pour les tableaux de variation
+	
+\usepackage[%
+   pdftitle={},%
+   pdfauthor={Cédric Gouygou},%
+   colorlinks=true,%
+   linkcolor=black,%
+   urlcolor=grisMdV,%
+   pdfpagemode=None%
+   pdfstartview=FitH]{hyperref}
+
+%% Calculs, affichage des nombres
+\usepackage{calc}
+\usepackage{numprint}
+%\usepackage{minted}										% pour afficher du code python
+%\newminted{python}{
+%	linenos=false,
+%	tabsize=4,
+%	bgcolor=gray!20,
+%%	fontsize=\scriptsize,
+%	xleftmargin=0pt}
+%\usemintedstyle{perldoc}
+
+%\usepackage{ifthen} 
+%\usepackage[locale=DE]{siunitx}
+%\usepackage[babel=true,kerning=true]{microtype}
+%\usepackage{fp}
+
+%% Divers
+%\usepackage{lipsum}
+%\usepackage{animate}										% pour les animations avec \animategraphics[options]{frame}{nom}{}{}
+%\usepackage{animfp}
+
+% Macros persos
+\input{/home/cedric/Travail/OutilsLaTeX/macros}
+
+\definecolor{rouge}{RGB}{200, 9, 3}
+\definecolor{gris}{rgb}{0.3,0.3,0.3}
+
+\pagestyle{fancy}
+\renewcommand\headrulewidth{1.5pt}										
+\fancyhead[R]{ \includegraphics[scale=1]{Logos/logo_RSMdV}}
+\fancyhead[L]{{\LARGE\bfseries \textcolor{rouge}{S}\textcolor{gris}{ciences} \textcolor{rouge}{N}\textcolor{gris}{umériques et} \textcolor{rouge}{T}\textcolor{gris}{echnologie}}\\[6pt]\textbf{Graphes et Réseaux Sociaux : Activité}}
+\fancyfoot[L]{\leavevmode\raise-6pt\hbox{\includegraphics[scale=1]{byncsa}} \textsf{\footnotesize cedric.gouygou@lyceeconnecte.fr} }
+\fancyfoot[C]{\bfseries\thepage/\pageref{lastpage}}
+\fancyfoot[R]{\footnotesize\itshape Lycée Marguerite De Valois -- 2021/2022 -- 2\nde}
+\AtEndDocument{\label{lastpage}}
+
+\begin{document}
+\setlength{\columnseprule}{1 pt}
+\begin{multicols}{2}
+
+\parskip=12pt
+\includegraphics[width=\linewidth]{../images/exemple_graphe}
+
+\includegraphics[width=\linewidth]{../images/exemple_graphe}
+
+\includegraphics[width=\linewidth]{../images/exemple_graphe}
+
+\bfseries
+
+\begin{itemize}[leftmargin=*]
+	\item Chaîne:
+	\item Cycle:
+	\item Degré de A:
+	\item Degré de E:
+	\item Distance de C à E:
+	\item Excentricité de D:
+	\item Diamètre du graphe:
+	\item Centres du graphe:
+\end{itemize}
+
+\columnbreak
+\centering
+
+\includegraphics[width=0.8\linewidth]{../images/Konigsberg1}
+
+\includegraphics[width=0.6\linewidth]{../images/enveloppe1}
+
+\includegraphics[width=\linewidth]{../images/loup_chevre_chou_vide}
+
+\includegraphics[width=0.8\linewidth]{../images/Water_gaz_electricity_Dudeney}
+
+\includegraphics[width=0.8\linewidth]{../images/BA_graphe_initial}
+\end{multicols}
+
+
+
+\end{document}

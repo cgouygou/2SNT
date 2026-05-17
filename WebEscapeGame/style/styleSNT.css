@@ -1,0 +1,61 @@
+body {
+	color : #FFFFFF;
+	background-color : #000000;
+	font-family : monospace;
+    margin-left: auto;
+    margin-right: auto;
+    width : 75%;
+}
+
+h1
+{
+	text-align: center;
+    font-style : bold;
+    width : 60%;
+    font-size : 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tips
+{
+	font-size : 1.5em;
+}
+.rules
+{
+	/* margin-left: auto;
+    margin-right: auto;
+    width : 75%; */
+/*    background-color: #dddddd;*/
+    font-size : 1.5em;
+ }
+.cesar
+{
+	margin-left: auto;
+    margin-right: auto;
+    width : 50%;
+    font-size: 3em;
+}
+/*.coordonneesGPS*/
+/*{*/
+/*	margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    width : 75%;*/
+/*    background-color: #dddddd;*/
+/*    font-family : monospace;*/
+/*    font-size : 3.5em;*/
+/*    font-style : bold;*/
+/*    text-align: center;*/
+/* }*/
+
+li
+{
+	margin-top:10px;
+	line-height: 1.5;
+}
+
+a
+{
+	font-style : bold;
+	color : #C80903;
+}
