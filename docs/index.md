@@ -1,7 +1,7 @@
 # Accueil SNT - Groupes - M. Gouygou
 
 
-![mdv](images/logo_MdV_site.png){: .center width=480} 
+![mdv](images/lycee-rostand-valois-angouleme-web.svg){: .center width=480} 
 
 
 
