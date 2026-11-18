@@ -51,7 +51,8 @@ P1
 ```
 
 !!! example "À vous de jouer!"
-    Copiez-collez le code ci-dessous dans un nouveau fichier du bloc-notes puis enregistrez-le sous le nom `mystere.pbm` (attention à bien spécifier l'extension pbm dans **Type de fichier**). Visualisez ensuite l'image en ouvrant le fichier avec le logiciel GIMP.
+    - Copiez-collez le code ci-dessous dans un nouveau fichier du bloc-notes puis enregistrez-le sous le nom `mystere.pbm` (attention à bien spécifier l'extension pbm dans **Type de fichier**).
+    - Visualisez ensuite l'image en ouvrant le fichier avec le logiciel GIMP.
 
 
 
@@ -68,15 +69,12 @@ Avec le noir et blanc, on ne va pas très loin... Intéressons-nous maintenant a
 !!! example "Analyse du code"
     === "Questions"
         1. Quel est le nombre magique de ce format `pgm`?
-        2. Comment interpréter le nombre 15 en ligne 4?
+        2. Un paramètre supplémentaire (par rapport au format `pbm`) est indiqué, il s'agit de la valeur maximale (le blanc). Combien vaut-il?
         3. Comment code-t-on alors les différents niveaux de gris?
         4. Que pourrait-on faire pour augmenter la qualité de l'image (sans augmenter sa taille)?
     
     === "Réponses"
 
-
-!!! example "À vous de jouer!"
-    Créez une image au format `pgm` contenant les trois premières lettres de votre prénom, chaque lettre devant être dans un niveau de gris différent (pas nécessairement les mêmes que dans l'exemple, hein).
 
 ## 4 - Image en couleur
 
